@@ -1,0 +1,29 @@
+# Composer-managed dependencies (restored via `composer install`)
+/vendor/
+
+# Drupal scaffold & Composer-managed code
+/web/core/
+/web/modules/contrib/
+/web/themes/contrib/
+/web/profiles/contrib/
+/web/libraries/
+
+# Sensitive / environment-specific files
+/web/sites/*/settings.local.php
+/web/sites/*/services.yml
+/web/sites/*/settings.ddev.php
+/web/sites/*/files/
+/web/sites/*/private/
+
+# Keep settings.php out of git (contains DB creds / hash salt)
+/web/sites/*/settings.php
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+
+# Logs & env
+*.log
+.env
+.env.local
