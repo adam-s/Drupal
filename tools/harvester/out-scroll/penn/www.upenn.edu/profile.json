@@ -1,0 +1,391 @@
+{
+  "site": "www.upenn.edu",
+  "url": "https://www.upenn.edu/",
+  "mode": "cdp",
+  "regions": {
+    "regions": [
+      {
+        "name": "header",
+        "selector": ".header",
+        "blocks": []
+      },
+      {
+        "name": "nav",
+        "selector": ".nav",
+        "blocks": []
+      },
+      {
+        "name": "nav",
+        "selector": ".nav",
+        "blocks": []
+      },
+      {
+        "name": "main",
+        "selector": "main",
+        "blocks": []
+      },
+      {
+        "name": "header",
+        "selector": ".section-header--w-filter",
+        "blocks": []
+      },
+      {
+        "name": "header",
+        "selector": ".section-header",
+        "blocks": []
+      },
+      {
+        "name": "header",
+        "selector": ".section-header",
+        "blocks": []
+      },
+      {
+        "name": "header",
+        "selector": ".section-header",
+        "blocks": []
+      },
+      {
+        "name": "header",
+        "selector": ".section-header",
+        "blocks": []
+      },
+      {
+        "name": "header",
+        "selector": ".section-header",
+        "blocks": []
+      },
+      {
+        "name": "header",
+        "selector": ".section-header",
+        "blocks": []
+      },
+      {
+        "name": "header",
+        "selector": ".section-header",
+        "blocks": []
+      },
+      {
+        "name": "header",
+        "selector": ".section-header",
+        "blocks": []
+      },
+      {
+        "name": "header",
+        "selector": ".section-header",
+        "blocks": []
+      },
+      {
+        "name": "header",
+        "selector": ".section-header",
+        "blocks": []
+      },
+      {
+        "name": "header",
+        "selector": ".section-header",
+        "blocks": []
+      },
+      {
+        "name": "header",
+        "selector": ".section-header",
+        "blocks": []
+      },
+      {
+        "name": "footer",
+        "selector": ".footer",
+        "blocks": []
+      }
+    ],
+    "layoutSystem": "unknown",
+    "signals": {
+      "region--": 0,
+      "layout__region": 0,
+      "layout--": 0,
+      "layout-paragraphs": 0,
+      "block-": 0,
+      "paragraph--type--": 0,
+      "data-component": 0,
+      "views-row": 0
+    }
+  },
+  "tokens": {
+    "spacing": [
+      5,
+      16,
+      25,
+      30,
+      41.5,
+      100
+    ],
+    "typography": {
+      "family": [
+        "Roboto",
+        "Helvetica",
+        "Arial",
+        "sans-serif",
+        "EB Garamond",
+        "serif"
+      ],
+      "sizes": [
+        13.3333,
+        14,
+        16,
+        19,
+        48,
+        50
+      ],
+      "weights": [
+        400,
+        700
+      ],
+      "lineHeights": [
+        26,
+        31,
+        56.23,
+        60
+      ]
+    },
+    "colors": {
+      "palette": [
+        "rgb(0, 0, 0)",
+        "rgb(255, 255, 255)",
+        "rgb(1, 31, 91)"
+      ],
+      "text": [
+        "rgb(0, 0, 0)",
+        "rgb(255, 255, 255)",
+        "rgb(1, 31, 91)"
+      ],
+      "background": [
+        "rgb(255, 255, 255)",
+        "rgb(1, 31, 91)"
+      ]
+    },
+    "radii": [],
+    "shadows": [],
+    "samples": {
+      "body": {
+        "margin": "0px",
+        "padding": "0px",
+        "fontFamily": "Roboto, Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "26px",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "h1": {
+        "margin": "0px 0px 30px",
+        "padding": "0px",
+        "fontFamily": "\"EB Garamond\", serif",
+        "fontSize": "48px",
+        "fontWeight": "400",
+        "lineHeight": "56.2286px",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "h2": {
+        "margin": "0px 0px 41.5px",
+        "padding": "0px",
+        "fontFamily": "\"EB Garamond\", serif",
+        "fontSize": "50px",
+        "fontWeight": "400",
+        "lineHeight": "60px",
+        "color": "rgb(1, 31, 91)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "h3": {
+        "margin": "0px 0px 25px",
+        "padding": "0px",
+        "fontFamily": "Roboto, Helvetica, Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "700",
+        "lineHeight": "26px",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "p": {
+        "margin": "0px",
+        "padding": "0px",
+        "fontFamily": "Roboto, Helvetica, Arial, sans-serif",
+        "fontSize": "19px",
+        "fontWeight": "400",
+        "lineHeight": "31px",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "a": {
+        "margin": "0px",
+        "padding": "16px",
+        "fontFamily": "Roboto, Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "26px",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(1, 31, 91)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "button": {
+        "margin": "0px",
+        "padding": "0px",
+        "fontFamily": "Roboto, Helvetica, Arial, sans-serif",
+        "fontSize": "13.3333px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "[class*=\"card\"]": {
+        "margin": "0px",
+        "padding": "0px 0px 100px",
+        "fontFamily": "Roboto, Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "26px",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "[class*=\"btn\"]": {
+        "margin": "0px",
+        "padding": "0px",
+        "fontFamily": "Roboto, Helvetica, Arial, sans-serif",
+        "fontSize": "13.3333px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "nav": {
+        "margin": "5px 0px 0px",
+        "padding": "0px",
+        "fontFamily": "Roboto, Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "26px",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      }
+    }
+  },
+  "scroll": {
+    "pattern": "sticky",
+    "states": [
+      {
+        "offset": 0,
+        "position": "absolute",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "height": 145,
+        "classes": [
+          "header"
+        ]
+      },
+      {
+        "offset": 400,
+        "position": "absolute",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "height": 145,
+        "classes": [
+          "header"
+        ]
+      },
+      {
+        "offset": 1000,
+        "position": "fixed",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "height": 145,
+        "classes": [
+          "header",
+          "headroom",
+          "headroom--not-top",
+          "headroom--not-bottom"
+        ]
+      },
+      {
+        "offset": 2000,
+        "position": "fixed",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "height": 145,
+        "classes": [
+          "header",
+          "headroom",
+          "headroom--not-top",
+          "headroom--not-bottom",
+          "headroom--unpinned"
+        ]
+      },
+      {
+        "offset": -1,
+        "position": "fixed",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "height": 145,
+        "classes": [
+          "header",
+          "headroom",
+          "headroom--not-top",
+          "headroom--not-bottom",
+          "headroom--pinned"
+        ]
+      }
+    ],
+    "library": "headroom"
+  },
+  "seo": {
+    "title": "University of Pennsylvania",
+    "description": "Topics",
+    "canonical": "https://www.upenn.edu/home",
+    "openGraph": [],
+    "twitter": [],
+    "jsonLdTypes": [],
+    "sitemapStatus": 200,
+    "robotsDirectives": 33
+  },
+  "fingerprint": {
+    "drupalCore": "Drupal 11",
+    "theme": "penn_global",
+    "hosting": "Pantheon+Fastly",
+    "modules": [
+      {
+        "name": "google_tag",
+        "confidence": "confirmed",
+        "evidence": "asset path /modules/contrib/google_tag"
+      },
+      {
+        "name": "image (responsive styles)",
+        "confidence": "inferred",
+        "evidence": "markup signature"
+      }
+    ]
+  },
+  "services": {
+    "services": [
+      {
+        "category": "fonts",
+        "name": "Google Fonts",
+        "confidence": "confirmed",
+        "evidence": "fonts.googleapis.com"
+      }
+    ]
+  },
+  "screenshots": [
+    "out/screenshots/www_upenn_edu.jpg"
+  ],
+  "capturedAt": "2026-06-05T08:12:49.211Z"
+}

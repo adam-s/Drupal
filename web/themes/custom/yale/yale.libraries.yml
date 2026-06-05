@@ -1,0 +1,8 @@
+global:
+  version: 1.x
+  css:
+    theme:
+      css/yale.css: {}
+  fonts:
+    # Yale uses YaleNew (serif) + Mallory (sans); local catalog uses close web-safe stand-ins
+    # so it renders without licensed fonts (faithful structure, tiny variance per the plan).

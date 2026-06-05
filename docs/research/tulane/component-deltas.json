@@ -1,0 +1,150 @@
+{
+ "tulane": {
+  "hero": {
+   "fontFamily": "\"Freight Sans Pro\", sans-serif",
+   "fontSize": "16px",
+   "fontWeight": "400",
+   "lineHeight": "24px",
+   "color": "rgb(0, 0, 0)",
+   "backgroundColor": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "margin": "0px",
+   "borderRadius": "0px",
+   "boxShadow": "none",
+   "letterSpacing": "normal"
+  },
+  "card": {
+   "fontFamily": "\"Freight Sans Pro\", sans-serif",
+   "fontSize": "22px",
+   "fontWeight": "700",
+   "lineHeight": "26px",
+   "color": "rgb(37, 92, 78)",
+   "backgroundColor": "rgba(0, 0, 0, 0)",
+   "padding": "12px 20px",
+   "margin": "0px 0px 16px",
+   "borderRadius": "0px",
+   "boxShadow": "none",
+   "letterSpacing": "0.66px"
+  },
+  "h1": {
+   "fontFamily": "ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+   "fontSize": "96px",
+   "fontWeight": "700",
+   "lineHeight": "96px",
+   "color": "rgb(255, 255, 255)",
+   "backgroundColor": "rgba(0, 0, 0, 0)",
+   "padding": "0px 64px",
+   "margin": "16px 0px 0px",
+   "borderRadius": "0px",
+   "boxShadow": "none",
+   "letterSpacing": "3.072px"
+  },
+  "h2": {
+   "fontFamily": "\"Freight Sans Pro\", sans-serif",
+   "fontSize": "22px",
+   "fontWeight": "700",
+   "lineHeight": "26px",
+   "color": "rgb(37, 92, 78)",
+   "backgroundColor": "rgba(0, 0, 0, 0)",
+   "padding": "0px 0px 32px",
+   "margin": "0px 0px 20px",
+   "borderRadius": "0px",
+   "boxShadow": "none",
+   "letterSpacing": "2.2px"
+  },
+  "body": {
+   "fontFamily": "Bookmania",
+   "fontSize": "20px",
+   "fontWeight": "400",
+   "lineHeight": "26px",
+   "color": "rgb(0, 0, 0)",
+   "backgroundColor": "rgba(0, 0, 0, 0)",
+   "padding": "0px 0px 1px",
+   "margin": "0px",
+   "borderRadius": "0px",
+   "boxShadow": "none",
+   "letterSpacing": "normal"
+  },
+  "link": {
+   "fontFamily": "Arial",
+   "fontSize": "13.3333px",
+   "fontWeight": "400",
+   "lineHeight": "normal",
+   "color": "rgb(255, 255, 255)",
+   "backgroundColor": "rgba(0, 0, 0, 0)",
+   "padding": "12px 20px",
+   "margin": "0px 4.66667px",
+   "borderRadius": "0px",
+   "boxShadow": "none",
+   "letterSpacing": "normal"
+  }
+ },
+ "yale": {
+  "hero": {
+   "fontFamily": "\"Mallory Compact\", sans-serif",
+   "fontSize": "19.5104px",
+   "fontWeight": "400",
+   "lineHeight": "33.1677px",
+   "color": "rgb(74, 74, 74)",
+   "backgroundColor": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "margin": "0px",
+   "borderRadius": "0px",
+   "boxShadow": "none",
+   "letterSpacing": "normal"
+  },
+  "card": {
+   "fontFamily": "\"Mallory Compact\", sans-serif",
+   "fontSize": "19.5104px",
+   "fontWeight": "400",
+   "lineHeight": "33.1677px",
+   "color": "rgb(74, 74, 74)",
+   "backgroundColor": "rgba(0, 0, 0, 0)",
+   "padding": "0px 40px",
+   "margin": "0px",
+   "borderRadius": "0px",
+   "boxShadow": "none",
+   "letterSpacing": "normal"
+  },
+  "h1": null,
+  "h2": {
+   "fontFamily": "YaleNew, serif",
+   "fontSize": "24.4752px",
+   "fontWeight": "400",
+   "lineHeight": "27.9017px",
+   "color": "rgb(74, 74, 74)",
+   "backgroundColor": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "margin": "0px",
+   "borderRadius": "0px",
+   "boxShadow": "none",
+   "letterSpacing": "normal"
+  },
+  "body": {
+   "fontFamily": "\"Mallory Compact\", sans-serif",
+   "fontSize": "19.5104px",
+   "fontWeight": "400",
+   "lineHeight": "27.3146px",
+   "color": "rgb(33, 33, 33)",
+   "backgroundColor": "rgba(0, 0, 0, 0)",
+   "padding": "0px",
+   "margin": "19.5104px 0px",
+   "borderRadius": "0px",
+   "boxShadow": "none",
+   "letterSpacing": "normal"
+  },
+  "link": {
+   "fontFamily": "\"Mallory Compact\", sans-serif",
+   "fontSize": "19.5104px",
+   "fontWeight": "400",
+   "lineHeight": "22.437px",
+   "color": "rgb(74, 74, 74)",
+   "backgroundColor": "rgba(0, 0, 0, 0)",
+   "padding": "8px",
+   "margin": "0px 0px 0px 16px",
+   "borderRadius": "0px",
+   "boxShadow": "none",
+   "letterSpacing": "normal"
+  }
+ }
+}

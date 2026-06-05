@@ -1,0 +1,15 @@
+{
+    "mcpServers": {
+        "drupal": {
+            "command": "ddev",
+            "args": [
+                "drush",
+                "mcp-tools:serve",
+                "--quiet",
+                "--uid=1",
+                "--scope=read,write"
+            ],
+            "cwd": "/Users/adamsohn/Projects/Drupal"
+        }
+    }
+}

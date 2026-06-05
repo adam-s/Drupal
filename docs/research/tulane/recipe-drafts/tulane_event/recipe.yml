@@ -1,0 +1,31 @@
+# DRAFT — review only. Event content type.
+name: 'Tulane Event'
+description: 'Event content type with smart dates and Event schema.'
+type: 'Content type'
+install:
+  - node
+  - field
+  - smart_date              # better date/time + recurrence (YaleSites uses this)
+  - media
+  - schema_metatag
+  - schema_event
+config:
+  # Proposed fields:
+  #   field_event_title (string, req)
+  #   field_event_date (smartdate, req)        — start/end, all-day, recurring
+  #   field_location (string / address)        — Place
+  #   field_attendance_mode (list: in-person/online/hybrid)
+  #   field_virtual_url (link)                 — VirtualLocation
+  #   field_summary (text_long)
+  #   field_image (media: image)
+  #   field_register_link (link)               — Offers/registration
+  #   field_organizer (entity_ref: department/person)
+  #   field_event_type (entity_ref: taxonomy)
+  actions:
+    schema_metatag.settings:
+      simpleConfigUpdate:
+        event_enabled_bundles:
+          - 'node:event'
+# Notes:
+# - Event rich results (date/location cards) are prominent in search; peers don't mark up.
+# - Consider Localist integration for syndication (peer-standard events platform).

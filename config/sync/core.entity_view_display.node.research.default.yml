@@ -1,0 +1,46 @@
+uuid: 5c443602-85a3-46e4-959f-ed31aa2298e5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.research.body
+    - field.field.node.research.field_areas
+    - field.field.node.research.field_people
+    - node.type.research
+  module:
+    - text
+    - user
+id: node.research.default
+targetEntityType: node
+bundle: research
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_areas:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_people:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

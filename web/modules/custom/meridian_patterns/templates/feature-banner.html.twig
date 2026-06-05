@@ -1,0 +1,36 @@
+{#
+/**
+ * Feature banner — original implementation of a common feature/magazine pattern:
+ * a featured story (eyebrow · title · summary · CTA) + large image, a category tab,
+ * and a row of overlay cards. Variables: tab, featured{...}, cards[].
+ */
+#}
+<section class="c-feature">
+  <div class="c-feature__top yale-wrap">
+    <article class="c-feature__story">
+      <span class="yale-eyebrow">{{ featured.eyebrow }}</span>
+      <h2 class="c-feature__title"><a href="{{ featured.url }}">{{ featured.title }}</a></h2>
+      <p class="c-feature__summary">{{ featured.summary }}</p>
+      <a class="yale-btn yale-btn--ghost c-feature__cta" href="{{ featured.url }}">Learn more ›</a>
+    </article>
+    {% if featured.image %}
+      <a class="c-feature__media" href="{{ featured.url }}" aria-hidden="true"
+         style="background-image:url('{{ featured.image }}')"></a>
+    {% endif %}
+    {% if tab %}<span class="c-feature__tab">{{ tab }}</span>{% endif %}
+  </div>
+
+  <div class="c-feature__cards yale-wrap">
+    {% for card in cards %}
+      <a class="c-feature__card{{ loop.index == 2 ? ' c-feature__card--accent' : '' }}"
+         href="{{ card.url }}"
+         {% if card.image and loop.index != 2 %}style="background-image:url('{{ card.image }}')"{% endif %}>
+        <span class="c-feature__card-inner">
+          <span class="c-feature__card-eyebrow">{{ card.eyebrow }}</span>
+          <span class="c-feature__card-title">{{ card.title }}</span>
+          <span class="c-feature__card-summary">{{ card.summary }}</span>
+        </span>
+      </a>
+    {% endfor %}
+  </div>
+</section>

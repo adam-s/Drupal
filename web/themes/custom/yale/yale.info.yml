@@ -1,0 +1,16 @@
+name: 'Yale (catalog)'
+type: theme
+description: 'Recreation of the YaleSites design language for the local catalog (regions, tokens, components).'
+core_version_requirement: ^10 || ^11
+base theme: stable9
+libraries:
+  - yale/global
+regions:
+  header: 'Header'
+  primary_menu: 'Primary menu'
+  hero: 'Hero'
+  breadcrumb: 'Breadcrumb'
+  content: 'Content'
+  sidebar: 'Sidebar'
+  footer_top: 'Footer top'
+  footer_bottom: 'Footer bottom'

@@ -1,0 +1,48 @@
+{#
+/**
+ * Tiles mosaic — original implementation of a common "explore"/discovery pattern:
+ * a heading, then a brand-colored band holding a grid of unequal, tinted tiles
+ * (photo + flat color-block + a control tile with shuffle). The grid pulls up
+ * over the heading (negative margin) for the signature overlap.
+ * Variables: eyebrow, heading, topics{}, tiles[].
+ */
+#}
+<section class="c-tiles">
+  <div class="c-tiles__head yale-wrap">
+    <span class="yale-eyebrow">{{ eyebrow }}</span>
+    <h2 class="c-tiles__title">{{ heading }}</h2>
+  </div>
+
+  <div class="c-tiles__band">
+    <div class="c-tiles__grid yale-wrap" data-tiles>
+      {% for tile in tiles %}
+        {% if tile.variant == 'control' %}
+          <div class="c-tile c-tile--control c-tile--{{ tile.size }}" data-tile-fixed>
+            <div class="c-tile__inner">
+              <select class="c-tiles__select" aria-label="Explore by topic">
+                <option>Explore by topic</option>
+                {% for value, label in topics %}<option value="{{ value }}">{{ label }}</option>{% endfor %}
+              </select>
+              <span class="c-tiles__or">or</span>
+              <button type="button" class="c-tiles__shuffle" data-shuffle>⟳ Shuffle</button>
+            </div>
+          </div>
+        {% else %}
+          <a class="c-tile c-tile--{{ tile.size }}
+                    {{ tile.photo ? 'c-tile--photo' : '' }}
+                    {{ tile.tint ? 'c-tile--' ~ tile.tint : '' }}
+                    {{ tile.flat ? 'c-tile--' ~ tile.flat : '' }}"
+             href="{{ tile.url }}"
+             {% if tile.image %}style="background-image:url('{{ tile.image }}')"{% endif %}>
+            <span class="c-tile__inner">
+              {% if tile.eyebrow %}<span class="c-tile__eyebrow">{{ tile.eyebrow }}</span>{% endif %}
+              <span class="c-tile__title">{{ tile.title }}</span>
+              {% if tile.text and tile.size in ['lg', 'tall'] %}<span class="c-tile__text">{{ tile.text }}</span>{% endif %}
+              {% if tile.cta %}<span class="c-tile__cta">{{ tile.cta }} ›</span>{% endif %}
+            </span>
+          </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>

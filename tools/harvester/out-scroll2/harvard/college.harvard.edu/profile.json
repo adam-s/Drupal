@@ -1,0 +1,414 @@
+{
+  "site": "college.harvard.edu",
+  "url": "https://college.harvard.edu/",
+  "mode": "cdp",
+  "regions": {
+    "regions": [
+      {
+        "name": "header",
+        "selector": ".m-site-header",
+        "blocks": []
+      },
+      {
+        "name": "nav",
+        "selector": ".m-site-header__nav",
+        "blocks": []
+      },
+      {
+        "name": "main",
+        "selector": "main",
+        "blocks": [
+          {
+            "type": "component",
+            "classes": [
+              "c-panel",
+              "c-panel",
+              "c-panel--white",
+              "news-block",
+              "news-block--no-dates"
+            ],
+            "box": {
+              "w": 1280,
+              "h": 516
+            }
+          },
+          {
+            "type": "component",
+            "classes": [
+              "o-two-block__block",
+              "o-two-block__block--left",
+              "o-two-block__block--grey-dark"
+            ],
+            "box": {
+              "w": 546,
+              "h": 520
+            }
+          },
+          {
+            "type": "component",
+            "classes": [
+              "o-two-block__block",
+              "o-two-block__block--right",
+              "o-two-block__block--grey"
+            ],
+            "box": {
+              "w": 546,
+              "h": 585
+            }
+          }
+        ]
+      },
+      {
+        "name": "nav",
+        "selector": "nav",
+        "blocks": []
+      },
+      {
+        "name": "nav",
+        "selector": ".c-link-group",
+        "blocks": []
+      },
+      {
+        "name": "nav",
+        "selector": ".c-link-group",
+        "blocks": []
+      },
+      {
+        "name": "nav",
+        "selector": ".c-link-group",
+        "blocks": []
+      },
+      {
+        "name": "nav",
+        "selector": ".c-link-group",
+        "blocks": []
+      },
+      {
+        "name": "footer",
+        "selector": ".m-footer",
+        "blocks": []
+      },
+      {
+        "name": "nav",
+        "selector": ".m-site-info__links-group",
+        "blocks": []
+      },
+      {
+        "name": "nav",
+        "selector": ".m-site-info__links-group",
+        "blocks": []
+      },
+      {
+        "name": "nav",
+        "selector": ".m-site-info__legal",
+        "blocks": []
+      },
+      {
+        "name": "nav",
+        "selector": ".m-additional-nav__inner",
+        "blocks": []
+      },
+      {
+        "name": "nav",
+        "selector": ".m-site-info__links-group",
+        "blocks": []
+      },
+      {
+        "name": "nav",
+        "selector": ".m-site-info__links-group",
+        "blocks": []
+      },
+      {
+        "name": "nav",
+        "selector": ".o-row",
+        "blocks": []
+      }
+    ],
+    "layoutSystem": "blocks",
+    "signals": {
+      "region--": 0,
+      "layout__region": 0,
+      "layout--": 0,
+      "layout-paragraphs": 0,
+      "block-": 1,
+      "paragraph--type--": 0,
+      "data-component": 0,
+      "views-row": 0
+    }
+  },
+  "tokens": {
+    "spacing": [
+      8
+    ],
+    "typography": {
+      "family": [
+        "gt-america",
+        "benton-sans",
+        "sans-serif",
+        "canela-deck",
+        "serif"
+      ],
+      "sizes": [
+        14,
+        16,
+        18,
+        24
+      ],
+      "weights": [
+        300,
+        400,
+        700
+      ],
+      "lineHeights": [
+        23.1,
+        28.8,
+        29.7,
+        30
+      ]
+    },
+    "colors": {
+      "palette": [
+        "rgb(32, 32, 32)",
+        "rgb(252, 252, 252)"
+      ],
+      "text": [
+        "rgb(32, 32, 32)"
+      ],
+      "background": [
+        "rgb(252, 252, 252)"
+      ]
+    },
+    "radii": [],
+    "shadows": [],
+    "samples": {
+      "body": {
+        "margin": "0px",
+        "padding": "0px",
+        "fontFamily": "gt-america, benton-sans, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "300",
+        "lineHeight": "29.7px",
+        "color": "rgb(32, 32, 32)",
+        "backgroundColor": "rgb(252, 252, 252)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "h1": {
+        "margin": "0px",
+        "padding": "0px",
+        "fontFamily": "gt-america, benton-sans, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "300",
+        "lineHeight": "29.7px",
+        "color": "rgb(32, 32, 32)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "h2": {
+        "margin": "0px",
+        "padding": "0px",
+        "fontFamily": "gt-america, benton-sans, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "300",
+        "lineHeight": "29.7px",
+        "color": "rgb(32, 32, 32)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "h3": {
+        "margin": "0px",
+        "padding": "0px",
+        "fontFamily": "gt-america, benton-sans, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "300",
+        "lineHeight": "29.7px",
+        "color": "rgb(32, 32, 32)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "h4": {
+        "margin": "0px",
+        "padding": "0px",
+        "fontFamily": "canela-deck, serif",
+        "fontSize": "24px",
+        "fontWeight": "300",
+        "lineHeight": "28.8px",
+        "color": "rgb(32, 32, 32)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "p": {
+        "margin": "0px",
+        "padding": "0px",
+        "fontFamily": "gt-america, benton-sans, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "300",
+        "lineHeight": "29.7px",
+        "color": "rgb(32, 32, 32)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "a": {
+        "margin": "0px",
+        "padding": "8px",
+        "fontFamily": "gt-america, benton-sans, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "23.1px",
+        "color": "rgb(32, 32, 32)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "button": {
+        "margin": "0px",
+        "padding": "0px",
+        "fontFamily": "gt-america, benton-sans, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "300",
+        "lineHeight": "normal",
+        "color": "rgb(32, 32, 32)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "[class*=\"card\"]": {
+        "margin": "0px",
+        "padding": "0px",
+        "fontFamily": "gt-america, benton-sans, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "700",
+        "lineHeight": "30px",
+        "color": "rgb(32, 32, 32)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "nav": {
+        "margin": "0px",
+        "padding": "0px",
+        "fontFamily": "gt-america, benton-sans, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "300",
+        "lineHeight": "29.7px",
+        "color": "rgb(32, 32, 32)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      }
+    }
+  },
+  "scroll": {
+    "pattern": "mixed",
+    "states": [
+      {
+        "offset": 0,
+        "position": "relative",
+        "transform": "none",
+        "height": 105,
+        "classes": [
+          "m-site-header"
+        ]
+      },
+      {
+        "offset": 400,
+        "position": "fixed",
+        "transform": "matrix(1, 0, 0, 1, 0, -72)",
+        "height": 72,
+        "classes": [
+          "m-site-header",
+          "header--fixed",
+          "header--ready"
+        ]
+      },
+      {
+        "offset": 1000,
+        "position": "fixed",
+        "transform": "matrix(1, 0, 0, 1, 0, -72)",
+        "height": 72,
+        "classes": [
+          "m-site-header",
+          "header--fixed",
+          "header--ready"
+        ]
+      },
+      {
+        "offset": 2000,
+        "position": "fixed",
+        "transform": "matrix(1, 0, 0, 1, 0, -72)",
+        "height": 72,
+        "classes": [
+          "m-site-header",
+          "header--fixed",
+          "header--ready"
+        ]
+      },
+      {
+        "offset": -1,
+        "position": "fixed",
+        "transform": "matrix(1, 0, 0, 1, 0, -72)",
+        "height": 72,
+        "classes": [
+          "m-site-header",
+          "header--fixed",
+          "header--ready"
+        ]
+      }
+    ],
+    "library": null
+  },
+  "seo": {
+    "title": "Harvard College | Harvard",
+    "description": "With world-class faculty, groundbreaking research opportunities, and a commitment to a diverse environment of bright, talented students, Harvard is more than just a place to get an education—it's where students come to be transformed",
+    "canonical": "https://college.harvard.edu/",
+    "openGraph": [
+      "og:site_name",
+      "og:title",
+      "og:description",
+      "og:image"
+    ],
+    "twitter": [
+      "twitter:image"
+    ],
+    "jsonLdTypes": [],
+    "sitemapStatus": 200,
+    "robotsDirectives": 33
+  },
+  "fingerprint": {
+    "drupalCore": "Drupal 11",
+    "theme": "harvard_college",
+    "hosting": "Pantheon+Fastly",
+    "modules": [
+      {
+        "name": "image (responsive styles)",
+        "confidence": "inferred",
+        "evidence": "markup signature"
+      }
+    ]
+  },
+  "services": {
+    "services": [
+      {
+        "category": "search",
+        "name": "Google CSE",
+        "confidence": "likely",
+        "evidence": "gcse"
+      },
+      {
+        "category": "a11y",
+        "name": "Siteimprove",
+        "confidence": "likely",
+        "evidence": "siteimprove"
+      }
+    ]
+  },
+  "screenshots": [
+    "out/screenshots/college_harvard_edu.jpg"
+  ],
+  "capturedAt": "2026-06-05T08:43:54.444Z"
+}

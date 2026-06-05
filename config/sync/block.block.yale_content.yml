@@ -1,0 +1,22 @@
+uuid: 43a2d82d-bedc-43a0-adc1-a16c8e64ba88
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - yale
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: yale_content
+theme: yale
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

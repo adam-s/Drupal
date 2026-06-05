@@ -1,0 +1,24 @@
+# DRAFT — review only. Accessibility baseline (ADA Title II / WCAG 2.1 AA).
+name: 'Accessibility Defaults'
+description: 'Baseline accessibility tooling and settings for WCAG 2.1 AA.'
+type: 'Configuration'
+install:
+  - editoria11y             # Yale-authored automated a11y checker (in-editor)
+  - ckeditor5
+config:
+  actions:
+    # Editoria11y on by default for editors
+    editoria11y.settings:
+      simpleConfigUpdate:
+        ed11y_enabled: true
+        ignore_elements: ''
+    # Enforce accessible text formats (no inline styles stripping headings, etc.)
+    # filter.format.basic_html: (illustrative — tighten allowed tags)
+# Token/theme-level accessibility (implemented in tulane_tailwindcss, not this recipe):
+#   - prefers-reduced-motion guards on all animations (copy Yale's effects pattern)
+#   - min tap target ~44px (Yale: size.click-target-minimum 2.75rem)
+#   - sufficient contrast in the color tokens (verify green/teal pairings)
+#   - visible focus states; skip-link (Yale has link-skip component)
+# Notes:
+# - Legal driver: ADA Title II, WCAG 2.1 AA, deadline ~April 2027 (large institutions).
+# - Add a11y to the Go-Live checklist (governance-models.md).

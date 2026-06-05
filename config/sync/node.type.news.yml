@@ -1,0 +1,11 @@
+uuid: d578c256-0b4e-4430-9b69-8b40eda17638
+langcode: en
+status: true
+dependencies: {  }
+name: News
+type: news
+description: 'News articles (Yale recreation).'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

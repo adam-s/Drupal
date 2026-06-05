@@ -1,0 +1,34 @@
+# DRAFT — review only. Degree/Program content type.
+name: 'Tulane Program'
+description: 'Degree/program content type (the prospective-student conversion engine).'
+type: 'Content type'
+recipes:
+  - tulane_person            # programs reference faculty
+install:
+  - node
+  - field
+  - field_group
+  - paragraphs               # for flexible program-page sections
+  - schema_metatag
+  - schema_web_page          # EducationalOccupationalProgram / Course
+config:
+  # Proposed fields (config/ in the real recipe):
+  #   field_program_name (string, req)
+  #   field_degree_type (list: BA/BS/MA/MS/PhD/Certificate)
+  #   field_summary (text_long)
+  #   field_department (entity_ref: department)
+  #   field_faculty (entity_ref: node:person, multi)
+  #   field_courses (entity_ref: node:course, multi)   # if a Course type exists
+  #   field_credential_awarded (string)
+  #   field_time_to_complete (string / duration)
+  #   field_apply_link (link), field_request_info_link (link)
+  #   field_sections (entity_ref_revisions: paragraphs — hero/cards/callout/facts)
+  actions:
+    schema_metatag.settings:
+      simpleConfigUpdate:
+        program_enabled_bundles:
+          - 'node:program'
+# Notes:
+# - Maps to schema.org EducationalOccupationalProgram (+ Course) — few peers mark this up
+#   (see seo-schema-recommendation.md). Big SEO opportunity on the conversion path.
+# - Add primary/secondary CTAs (Apply / Request Info) — Tulane's hero lacks CTAs vs Yale.

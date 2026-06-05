@@ -1,0 +1,18 @@
+uuid: df2c5bd8-f699-42c6-afd9-423c26a0f384
+langcode: en
+status: true
+dependencies:
+  theme:
+    - yale
+id: yale_pagetitle
+theme: yale
+region: content
+weight: -10
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: ''
+  label_display: '0'
+  provider: core
+visibility: {  }

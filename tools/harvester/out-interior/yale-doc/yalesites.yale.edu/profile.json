@@ -1,0 +1,552 @@
+{
+  "site": "yalesites.yale.edu",
+  "url": "https://yalesites.yale.edu/explore-resources/user-guide/building-your-site/accessibility-with-editoria11y",
+  "mode": "cdp",
+  "regions": {
+    "regions": [
+      {
+        "name": "header",
+        "selector": ".site-header",
+        "blocks": []
+      },
+      {
+        "name": "nav",
+        "selector": ".utility-nav",
+        "blocks": []
+      },
+      {
+        "name": "nav",
+        "selector": ".primary-nav",
+        "blocks": []
+      },
+      {
+        "name": "nav",
+        "selector": ".utility-nav",
+        "blocks": []
+      },
+      {
+        "name": "main",
+        "selector": ".main-content",
+        "blocks": [
+          {
+            "type": "component",
+            "classes": [
+              "breadcrumbs__wrapper",
+              "breadcrumbs__wrapper--collapsible"
+            ],
+            "box": {
+              "w": 1280,
+              "h": 78
+            }
+          },
+          {
+            "type": "component",
+            "classes": [
+              "page-title",
+              "visible"
+            ],
+            "box": {
+              "w": 1280,
+              "h": 65
+            }
+          },
+          {
+            "type": "component",
+            "classes": [
+              "yds-layout",
+              "layout"
+            ],
+            "box": {
+              "w": 1280,
+              "h": 1111
+            }
+          },
+          {
+            "type": "component",
+            "classes": [
+              "ys-block-wrapper",
+              "ys-block-wrapper--padding-no-padding"
+            ],
+            "box": {
+              "w": 1200,
+              "h": 127
+            }
+          },
+          {
+            "type": "component",
+            "classes": [
+              "text-field"
+            ],
+            "componentGuess": "emphasized",
+            "box": {
+              "w": 1200,
+              "h": 127
+            }
+          },
+          {
+            "type": "component",
+            "classes": [
+              "ys-block-wrapper",
+              "ys-block-wrapper--padding-no-padding"
+            ],
+            "box": {
+              "w": 1200,
+              "h": 100
+            }
+          },
+          {
+            "type": "component",
+            "classes": [
+              "text-field"
+            ],
+            "componentGuess": "default",
+            "box": {
+              "w": 1200,
+              "h": 100
+            }
+          },
+          {
+            "type": "component",
+            "classes": [
+              "ys-block-wrapper",
+              "ys-block-wrapper--padding-no-padding"
+            ],
+            "box": {
+              "w": 1200,
+              "h": 33
+            }
+          },
+          {
+            "type": "component",
+            "classes": [
+              "text-field"
+            ],
+            "componentGuess": "default",
+            "box": {
+              "w": 1200,
+              "h": 33
+            }
+          },
+          {
+            "type": "component",
+            "classes": [
+              "ys-block-wrapper",
+              "ys-block-wrapper--padding-no-padding"
+            ],
+            "box": {
+              "w": 1200,
+              "h": 619
+            }
+          },
+          {
+            "type": "component",
+            "classes": [
+              "content-image"
+            ],
+            "box": {
+              "w": 1200,
+              "h": 619
+            }
+          },
+          {
+            "type": "component",
+            "classes": [
+              "ys-block-wrapper",
+              "ys-block-wrapper--padding-no-padding"
+            ],
+            "box": {
+              "w": 1280,
+              "h": 55
+            }
+          }
+        ]
+      },
+      {
+        "name": "div",
+        "selector": ".layout__region",
+        "blocks": [
+          {
+            "type": "component",
+            "classes": [
+              "breadcrumbs__wrapper",
+              "breadcrumbs__wrapper--collapsible"
+            ],
+            "box": {
+              "w": 1280,
+              "h": 78
+            }
+          },
+          {
+            "type": "component",
+            "classes": [
+              "page-title",
+              "visible"
+            ],
+            "box": {
+              "w": 1280,
+              "h": 65
+            }
+          }
+        ]
+      },
+      {
+        "name": "nav",
+        "selector": ".breadcrumbs",
+        "blocks": []
+      },
+      {
+        "name": "div",
+        "selector": ".layout__region",
+        "blocks": [
+          {
+            "type": "component",
+            "classes": [
+              "ys-block-wrapper",
+              "ys-block-wrapper--padding-no-padding"
+            ],
+            "box": {
+              "w": 1280,
+              "h": 55
+            }
+          },
+          {
+            "type": "component",
+            "classes": [
+              "text-field"
+            ],
+            "componentGuess": "default",
+            "box": {
+              "w": 1280,
+              "h": 55
+            }
+          }
+        ]
+      },
+      {
+        "name": "div",
+        "selector": ".layout__region",
+        "blocks": [
+          {
+            "type": "component",
+            "classes": [
+              "ys-block-wrapper",
+              "ys-block-wrapper--padding-default"
+            ],
+            "box": {
+              "w": 1280,
+              "h": 554
+            }
+          },
+          {
+            "type": "component",
+            "classes": [
+              "text-with-image"
+            ],
+            "box": {
+              "w": 1280,
+              "h": 554
+            }
+          },
+          {
+            "type": "component",
+            "classes": [
+              "ys-block-wrapper",
+              "ys-block-wrapper--padding-no-bottom"
+            ],
+            "box": {
+              "w": 1280,
+              "h": 315
+            }
+          },
+          {
+            "type": "component",
+            "classes": [
+              "quick-links"
+            ],
+            "box": {
+              "w": 1280,
+              "h": 315
+            }
+          }
+        ]
+      },
+      {
+        "name": "footer",
+        "selector": ".site-footer",
+        "blocks": []
+      }
+    ],
+    "layoutSystem": "layout_builder",
+    "signals": {
+      "region--": 0,
+      "layout__region": 6,
+      "layout--": 3,
+      "layout-paragraphs": 0,
+      "block-": 10,
+      "paragraph--type--": 0,
+      "data-component": 43,
+      "views-row": 0
+    }
+  },
+  "tokens": {
+    "spacing": [
+      8,
+      12,
+      16,
+      17.4902,
+      28.1504
+    ],
+    "typography": {
+      "family": [
+        "Mallory Compact",
+        "sans-serif",
+        "YaleNew",
+        "serif"
+      ],
+      "sizes": [
+        15.8368,
+        19.5104,
+        24.4752,
+        28.1504,
+        29.1504,
+        59.4144
+      ],
+      "weights": [
+        400
+      ],
+      "lineHeights": [
+        22.44,
+        26.92,
+        27.9,
+        33.17,
+        33.23,
+        42.23,
+        65.36
+      ]
+    },
+    "colors": {
+      "palette": [
+        "rgb(74, 74, 74)",
+        "rgb(33, 33, 33)",
+        "rgb(255, 255, 255)",
+        "rgb(39, 107, 190)"
+      ],
+      "text": [
+        "rgb(74, 74, 74)",
+        "rgb(33, 33, 33)",
+        "rgb(255, 255, 255)",
+        "rgb(39, 107, 190)"
+      ],
+      "background": [
+        "rgb(255, 255, 255)"
+      ]
+    },
+    "radii": [],
+    "shadows": [],
+    "samples": {
+      "body": {
+        "margin": "0px",
+        "padding": "0px",
+        "fontFamily": "\"Mallory Compact\", sans-serif",
+        "fontSize": "19.5104px",
+        "fontWeight": "400",
+        "lineHeight": "33.1677px",
+        "color": "rgb(74, 74, 74)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "h1": {
+        "margin": "0px",
+        "padding": "0px",
+        "fontFamily": "YaleNew, serif",
+        "fontSize": "59.4144px",
+        "fontWeight": "400",
+        "lineHeight": "65.3558px",
+        "color": "rgb(33, 33, 33)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "h2": {
+        "margin": "0px",
+        "padding": "0px",
+        "fontFamily": "YaleNew, serif",
+        "fontSize": "24.4752px",
+        "fontWeight": "400",
+        "lineHeight": "27.9017px",
+        "color": "rgb(74, 74, 74)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "h3": {
+        "margin": "0px 0px 17.4902px",
+        "padding": "0px",
+        "fontFamily": "YaleNew, serif",
+        "fontSize": "29.1504px",
+        "fontWeight": "400",
+        "lineHeight": "33.2315px",
+        "color": "rgb(33, 33, 33)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "p": {
+        "margin": "28.1504px 0px 0px",
+        "padding": "0px",
+        "fontFamily": "\"Mallory Compact\", sans-serif",
+        "fontSize": "28.1504px",
+        "fontWeight": "400",
+        "lineHeight": "42.2256px",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "a": {
+        "margin": "12px 0px",
+        "padding": "0px",
+        "fontFamily": "\"Mallory Compact\", sans-serif",
+        "fontSize": "19.5104px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "color": "rgb(39, 107, 190)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "button": {
+        "margin": "0px 0px 0px 16px",
+        "padding": "8px",
+        "fontFamily": "\"Mallory Compact\", sans-serif",
+        "fontSize": "19.5104px",
+        "fontWeight": "400",
+        "lineHeight": "22.437px",
+        "color": "rgb(74, 74, 74)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "nav": {
+        "margin": "0px",
+        "padding": "0px",
+        "fontFamily": "\"Mallory Compact\", sans-serif",
+        "fontSize": "15.8368px",
+        "fontWeight": "400",
+        "lineHeight": "26.9226px",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      }
+    }
+  },
+  "scroll": {
+    "pattern": "static",
+    "states": [
+      {
+        "offset": 0,
+        "position": "relative",
+        "transform": "none",
+        "height": 269,
+        "classes": [
+          "site-header"
+        ]
+      },
+      {
+        "offset": 200,
+        "position": "relative",
+        "transform": "none",
+        "height": 269,
+        "classes": [
+          "site-header"
+        ]
+      },
+      {
+        "offset": 500,
+        "position": "relative",
+        "transform": "none",
+        "height": 269,
+        "classes": [
+          "site-header"
+        ]
+      },
+      {
+        "offset": 900,
+        "position": "relative",
+        "transform": "none",
+        "height": 269,
+        "classes": [
+          "site-header"
+        ]
+      }
+    ],
+    "library": null
+  },
+  "seo": {
+    "title": "Accessibility with Editoria11y | YaleSites",
+    "description": "Editoria11y is an integrated tool that helps you spot and fix accessibility issues as you create website content.",
+    "canonical": "https://yalesites.yale.edu/explore-resources/user-guide/building-your-site/accessibility-with-editoria11y",
+    "openGraph": [
+      "og:site_name",
+      "og:type",
+      "og:url",
+      "og:title",
+      "og:description",
+      "og:image",
+      "og:image:alt"
+    ],
+    "twitter": [],
+    "jsonLdTypes": [],
+    "sitemapStatus": 200,
+    "robotsDirectives": 35
+  },
+  "fingerprint": {
+    "drupalCore": "Drupal 10",
+    "theme": "atomic",
+    "hosting": "Pantheon+Fastly",
+    "modules": [
+      {
+        "name": "ai_engine",
+        "confidence": "confirmed",
+        "evidence": "asset path /modules/contrib/ai_engine"
+      },
+      {
+        "name": "layout_builder",
+        "confidence": "inferred",
+        "evidence": "markup signature"
+      },
+      {
+        "name": "image (responsive styles)",
+        "confidence": "inferred",
+        "evidence": "markup signature"
+      },
+      {
+        "name": "editoria11y",
+        "confidence": "inferred",
+        "evidence": "markup signature"
+      }
+    ]
+  },
+  "services": {
+    "services": [
+      {
+        "category": "a11y",
+        "name": "Siteimprove",
+        "confidence": "likely",
+        "evidence": "siteimprove"
+      },
+      {
+        "category": "a11y",
+        "name": "Editoria11y",
+        "confidence": "likely",
+        "evidence": "Editoria11y"
+      }
+    ]
+  },
+  "screenshots": [
+    "out/screenshots/yalesites_yale_edu.jpg"
+  ],
+  "capturedAt": "2026-06-05T07:40:22.870Z"
+}

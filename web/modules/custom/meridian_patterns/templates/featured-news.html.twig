@@ -1,0 +1,43 @@
+{#
+/**
+ * Featured + recent news — an original implementation of a common web pattern.
+ * Variables: heading, featured {title,url,date,image}, items[], topics{}.
+ */
+#}
+<section class="c-news yale-wrap">
+  <header class="c-news__header">
+    <h2 class="c-news__title">{{ heading }}</h2>
+    <form class="c-news__filter" action="/news" method="get">
+      <label class="c-news__filter-label" for="c-news-topic">Explore more news</label>
+      <select class="c-news__select" id="c-news-topic" name="topic">
+        <option value="">All news</option>
+        {% for value, label in topics %}
+          <option value="{{ value }}">{{ label }}</option>
+        {% endfor %}
+      </select>
+      <button class="c-news__submit yale-btn yale-btn--solid" type="submit">Go</button>
+    </form>
+  </header>
+
+  <div class="c-news__grid">
+    {% if featured %}
+      <article class="c-news__feature">
+        {% if featured.image %}
+          <a class="c-news__feature-media" href="{{ featured.url }}" aria-hidden="true"
+             style="background-image:url('{{ featured.image }}')"></a>
+        {% endif %}
+        <h3 class="c-news__feature-title"><a href="{{ featured.url }}">{{ featured.title }}</a></h3>
+        <time class="c-news__date">{{ featured.date }}</time>
+      </article>
+    {% endif %}
+
+    <div class="c-news__list">
+      {% for item in items %}
+        <article class="c-news__item">
+          <h3 class="c-news__item-title"><a href="{{ item.url }}">{{ item.title }}</a></h3>
+          <time class="c-news__date">{{ item.date }}</time>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>

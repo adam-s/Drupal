@@ -1,0 +1,38 @@
+# DRAFT — review only. Editorial workflow + three-tier roles.
+name: 'Editorial Workflow'
+description: 'Content moderation (Draft/Review/Published) + Author/Editor/Manager roles.'
+type: 'Workflow'
+install:
+  - content_moderation
+  - workflows
+  - moderation_sidebar       # streamlined editor UX (YaleSites)
+  - workflow_buttons
+  - role_delegation          # let Managers assign roles (governance model)
+config:
+  # Real recipe ships: workflows.workflow.editorial.yml + user.role.*.yml + permissions.
+  actions:
+    # Three-tier role model (from governance-models.md). Publish is the privilege boundary.
+    user.role.content_author:
+      grantPermissions:
+        - 'access content overview'
+        - 'view own unpublished content'
+        - 'use editorial transition create_new_draft'
+        # NOTE: no publish permission — Authors draft only.
+    user.role.content_editor:
+      grantPermissions:
+        - 'use editorial transition create_new_draft'
+        - 'use editorial transition review'
+        - 'use editorial transition publish'
+        - 'view any unpublished content'
+        - 'access taxonomy overview'
+    user.role.site_manager:
+      grantPermissions:
+        - 'use editorial transition archive'
+        - 'assign content_author role'
+        - 'assign content_editor role'
+        - 'administer url aliases'
+        - 'administer redirects'
+# Workflow states (illustrative): Draft -> Needs Review -> Published -> Archived.
+# Notes:
+# - Matches SLAC/Ohio State 3-tier model (Author/Editor/Manager). Only Manager manages users.
+# - Pair with layout_builder_restrictions_by_role so Editors can't break the brand.

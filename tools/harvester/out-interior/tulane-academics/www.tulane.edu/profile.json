@@ -1,0 +1,487 @@
+{
+  "site": "www.tulane.edu",
+  "url": "https://www.tulane.edu/academics/undergraduate-education",
+  "mode": "cdp",
+  "regions": {
+    "regions": [
+      {
+        "name": "header",
+        "selector": ".container",
+        "blocks": [
+          {
+            "type": "block-type-system-branding-block",
+            "classes": [
+              "block-type-system-branding-block"
+            ],
+            "box": {
+              "w": 496,
+              "h": 64
+            }
+          }
+        ]
+      },
+      {
+        "name": "nav",
+        "selector": ".block-type-menu-block:menu-primary-navigation",
+        "blocks": []
+      },
+      {
+        "name": "main",
+        "selector": "main",
+        "blocks": [
+          {
+            "type": "block-type-views-block:alert-alert-block",
+            "classes": [
+              "views-element-container",
+              "block-type-views-block:alert-alert-block"
+            ],
+            "box": {
+              "w": 1280,
+              "h": 0
+            }
+          },
+          {
+            "type": "block-type-system-main-block",
+            "classes": [
+              "block-type-system-main-block"
+            ],
+            "box": {
+              "w": 1280,
+              "h": 1668
+            }
+          },
+          {
+            "type": "block-type-hero",
+            "classes": [
+              "block-type-hero"
+            ],
+            "box": {
+              "w": 1280,
+              "h": 468
+            }
+          },
+          {
+            "type": "block-type-standalone-text",
+            "classes": [
+              "block-type-standalone-text"
+            ],
+            "box": {
+              "w": 728,
+              "h": 210
+            }
+          },
+          {
+            "type": "block-type-quick-links",
+            "classes": [
+              "block-type-quick-links"
+            ],
+            "box": {
+              "w": 1280,
+              "h": 164
+            }
+          },
+          {
+            "type": "block-type-basic",
+            "classes": [
+              "block-type-basic"
+            ],
+            "box": {
+              "w": 1200,
+              "h": 673
+            }
+          }
+        ]
+      },
+      {
+        "name": "div",
+        "selector": ".layout__region",
+        "blocks": [
+          {
+            "type": "block-type-hero",
+            "classes": [
+              "block-type-hero"
+            ],
+            "box": {
+              "w": 1280,
+              "h": 468
+            }
+          }
+        ]
+      },
+      {
+        "name": "div",
+        "selector": ".layout__region",
+        "blocks": [
+          {
+            "type": "block-type-quick-links",
+            "classes": [
+              "block-type-quick-links"
+            ],
+            "box": {
+              "w": 1280,
+              "h": 164
+            }
+          }
+        ]
+      },
+      {
+        "name": "nav",
+        "selector": "nav",
+        "blocks": []
+      },
+      {
+        "name": "div",
+        "selector": ".layout__region",
+        "blocks": [
+          {
+            "type": "block-type-basic",
+            "classes": [
+              "block-type-basic"
+            ],
+            "box": {
+              "w": 1200,
+              "h": 673
+            }
+          }
+        ]
+      },
+      {
+        "name": "footer",
+        "selector": ".grid",
+        "blocks": [
+          {
+            "type": "block-type-block-content:093a9fa9-7720-4343-af36-1576c5a79d18",
+            "classes": [
+              "fill-white",
+              "block-type-block-content:093a9fa9-7720-4343-af36-1576c5a79d18"
+            ],
+            "box": {
+              "w": 260,
+              "h": 290
+            }
+          },
+          {
+            "type": "block-type-system-menu-block:footer-menu-ii",
+            "classes": [
+              "font-freight",
+              "block-type-system-menu-block:footer-menu-ii"
+            ],
+            "box": {
+              "w": 260,
+              "h": 78
+            }
+          },
+          {
+            "type": "block-type-system-menu-block:footer",
+            "classes": [
+              "block-type-system-menu-block:footer"
+            ],
+            "box": {
+              "w": 260,
+              "h": 104
+            }
+          }
+        ]
+      },
+      {
+        "name": "nav",
+        "selector": ".font-freight",
+        "blocks": []
+      },
+      {
+        "name": "nav",
+        "selector": ".block-type-system-menu-block:footer",
+        "blocks": []
+      }
+    ],
+    "layoutSystem": "layout_builder",
+    "signals": {
+      "region--": 0,
+      "layout__region": 6,
+      "layout--": 3,
+      "layout-paragraphs": 0,
+      "block-": 14,
+      "paragraph--type--": 2,
+      "data-component": 0,
+      "views-row": 0
+    }
+  },
+  "tokens": {
+    "spacing": [
+      1,
+      4,
+      4.66667,
+      12,
+      15,
+      16,
+      20,
+      32,
+      64
+    ],
+    "typography": {
+      "family": [
+        "Freight Sans Pro",
+        "sans-serif",
+        "ui-serif",
+        "Georgia",
+        "Cambria",
+        "Times New Roman",
+        "Times",
+        "serif",
+        "Arial"
+      ],
+      "sizes": [
+        13.3333,
+        16,
+        20,
+        22,
+        60
+      ],
+      "weights": [
+        400,
+        700
+      ],
+      "lineHeights": [
+        24,
+        26,
+        60
+      ]
+    },
+    "colors": {
+      "palette": [
+        "rgb(0, 0, 0)",
+        "rgb(255, 255, 255)",
+        "rgb(37, 92, 78)"
+      ],
+      "text": [
+        "rgb(0, 0, 0)",
+        "rgb(255, 255, 255)",
+        "rgb(37, 92, 78)"
+      ],
+      "background": []
+    },
+    "radii": [],
+    "shadows": [],
+    "samples": {
+      "body": {
+        "margin": "0px",
+        "padding": "0px",
+        "fontFamily": "\"Freight Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "h1": {
+        "margin": "16px 0px 0px",
+        "padding": "0px 64px",
+        "fontFamily": "ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+        "fontSize": "60px",
+        "fontWeight": "700",
+        "lineHeight": "60px",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "h2": {
+        "margin": "0px 0px 20px",
+        "padding": "0px 0px 32px",
+        "fontFamily": "\"Freight Sans Pro\", sans-serif",
+        "fontSize": "22px",
+        "fontWeight": "700",
+        "lineHeight": "26px",
+        "color": "rgb(37, 92, 78)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "p": {
+        "margin": "0px 0px 15px 20px",
+        "padding": "0px 0px 1px",
+        "fontFamily": "\"Freight Sans Pro\", sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "26px",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "a": {
+        "margin": "0px 0px 0px 4px",
+        "padding": "0px",
+        "fontFamily": "\"Freight Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "700",
+        "lineHeight": "24px",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "button": {
+        "margin": "0px 4.66667px",
+        "padding": "12px 20px",
+        "fontFamily": "Arial",
+        "fontSize": "13.3333px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "[class*=\"btn\"]": {
+        "margin": "0px 0px 16px",
+        "padding": "12px 20px",
+        "fontFamily": "\"Freight Sans Pro\", sans-serif",
+        "fontSize": "22px",
+        "fontWeight": "400",
+        "lineHeight": "26px",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "nav": {
+        "margin": "0px",
+        "padding": "0px",
+        "fontFamily": "\"Freight Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      }
+    }
+  },
+  "scroll": {
+    "pattern": "sticky",
+    "states": [
+      {
+        "offset": 0,
+        "position": "fixed",
+        "transform": "none",
+        "height": 80,
+        "classes": [
+          "header_wrapper",
+          "bg-tu-green-official",
+          "text-white",
+          "h-20",
+          "p-5",
+          "pt-2",
+          "auto-cols-max",
+          "fixed",
+          "w-full",
+          "z-50"
+        ]
+      },
+      {
+        "offset": 200,
+        "position": "fixed",
+        "transform": "none",
+        "height": 80,
+        "classes": [
+          "header_wrapper",
+          "bg-tu-green-official",
+          "text-white",
+          "h-20",
+          "p-5",
+          "pt-2",
+          "auto-cols-max",
+          "fixed",
+          "w-full",
+          "z-50"
+        ]
+      },
+      {
+        "offset": 500,
+        "position": "fixed",
+        "transform": "none",
+        "height": 80,
+        "classes": [
+          "header_wrapper",
+          "bg-tu-green-official",
+          "text-white",
+          "h-20",
+          "p-5",
+          "pt-2",
+          "auto-cols-max",
+          "fixed",
+          "w-full",
+          "z-50"
+        ]
+      },
+      {
+        "offset": 900,
+        "position": "fixed",
+        "transform": "none",
+        "height": 80,
+        "classes": [
+          "header_wrapper",
+          "bg-tu-green-official",
+          "text-white",
+          "h-20",
+          "p-5",
+          "pt-2",
+          "auto-cols-max",
+          "fixed",
+          "w-full",
+          "z-50"
+        ]
+      }
+    ],
+    "library": null
+  },
+  "seo": {
+    "title": "Undergraduate Education | Tulane University",
+    "description": "Undergraduates are part of Newcomb-Tulane College, offering faculty, study abroad, and required community engagement, core curriculum, and TIDES.",
+    "canonical": "https://tulane.edu/academics/undergraduate-education",
+    "openGraph": [
+      "og:site_name",
+      "og:url",
+      "og:title"
+    ],
+    "twitter": [],
+    "jsonLdTypes": [],
+    "sitemapStatus": 200,
+    "robotsDirectives": 34
+  },
+  "fingerprint": {
+    "drupalCore": "Drupal 10",
+    "theme": "tulane_tailwindcss",
+    "hosting": "Pantheon+Fastly",
+    "modules": [
+      {
+        "name": "paragraphs",
+        "confidence": "inferred",
+        "evidence": "markup signature"
+      },
+      {
+        "name": "layout_builder",
+        "confidence": "inferred",
+        "evidence": "markup signature"
+      }
+    ]
+  },
+  "services": {
+    "services": [
+      {
+        "category": "fonts",
+        "name": "Font Awesome",
+        "confidence": "likely",
+        "evidence": "fontawesome"
+      }
+    ]
+  },
+  "screenshots": [
+    "out/screenshots/www_tulane_edu.jpg"
+  ],
+  "capturedAt": "2026-06-05T07:40:13.253Z"
+}

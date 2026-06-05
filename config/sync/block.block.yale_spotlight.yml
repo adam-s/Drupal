@@ -1,0 +1,28 @@
+uuid: ede7c519-d68a-4761-a03b-af2b9f83221d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:7a930853-48da-4310-8137-519b7821d46a'
+  module:
+    - block_content
+    - system
+  theme:
+    - yale
+id: yale_spotlight
+theme: yale
+region: content
+weight: 15
+provider: null
+plugin: 'block_content:7a930853-48da-4310-8137-519b7821d46a'
+settings:
+  id: 'block_content:7a930853-48da-4310-8137-519b7821d46a'
+  label: ''
+  label_display: '0'
+  provider: block_content
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

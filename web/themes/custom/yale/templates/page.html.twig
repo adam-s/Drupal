@@ -1,0 +1,47 @@
+{#
+/**
+ * Yale (catalog recreation) page template.
+ * Renders the theme regions with YaleSites-style wrappers.
+ */
+#}
+<div class="layout-container">
+
+  <header class="yale-header" role="banner">
+    <div class="yale-wrap">
+      <a class="yale-logo" href="{{ path('<front>') }}">{{ site_name|default('Meridian University') }}</a>
+      <nav class="yale-nav">
+        {{ page.header }}
+        {{ page.primary_menu }}
+      </nav>
+    </div>
+  </header>
+
+  {% if page.hero %}
+    <section class="yale-hero-region">{{ page.hero }}</section>
+  {% endif %}
+
+  {% if page.breadcrumb %}
+    <div class="yale-wrap">{{ page.breadcrumb }}</div>
+  {% endif %}
+
+  <main role="main">
+    <a id="main-content" tabindex="-1"></a>
+    <div class="yale-wrap{{ page.sidebar ? ' has-sidebar' : '' }}">
+      <div class="content-main">
+        {{ page.content }}
+      </div>
+      {% if page.sidebar %}
+        <aside class="content-sidebar">{{ page.sidebar }}</aside>
+      {% endif %}
+    </div>
+  </main>
+
+  {% if page.footer_top %}
+    <div class="yale-footer-top"><div class="yale-wrap">{{ page.footer_top }}</div></div>
+  {% endif %}
+  <div class="yale-footer-bottom"><div class="yale-wrap">
+    {{ page.footer_bottom }}
+    <div>© {{ "now"|date("Y") }} Meridian University — original pattern catalog, local reference only.</div>
+  </div></div>
+
+</div>

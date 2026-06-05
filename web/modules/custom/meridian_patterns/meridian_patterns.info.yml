@@ -1,0 +1,5 @@
+name: 'Meridian Patterns'
+type: module
+description: 'Original implementations of common web patterns (featured news, etc.) for the catalog.'
+core_version_requirement: ^10 || ^11
+package: Custom

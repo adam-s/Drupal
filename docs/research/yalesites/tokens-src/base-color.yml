@@ -1,0 +1,457 @@
+color:
+  background:
+    value: "{color.basic.white}"
+  text:
+    value: "{color.gray.700}"
+  heading:
+    value: "{color.gray.800}"
+component-themes:
+  "one":
+    background:
+      value: "{color.blue.yale.value}"
+    text:
+      value: "{color.basic.white.value}"
+    heading:
+      value: "{color.basic.white.value}"
+    slot-one:
+      value: "{color.blue.yale.value}"
+    slot-two:
+      value: "{color.blue.medium.value}"
+    slot-three:
+      value: "{color.blue.light.value}"
+    slot-four:
+      value: "{color.gray.100.value}"
+    slot-five:
+      value: "{color.gray.800.value}"
+    slot-six:
+      value: "{color.blue.yale.value}"
+    slot-seven:
+      value: "{color.gray.800.value}"
+    slot-eight:
+      value: "{color.basic.white.value}"
+  "two":
+    background:
+      value: "{color.gray.700.value}"
+    text:
+      value: "{color.basic.white.value}"
+    heading:
+      value: "{color.basic.white.value}"
+    slot-one:
+      value: "{color.gray.700.value}"
+    slot-two:
+      value: "{color.green.basil.value}"
+    slot-three:
+      value: "{color.green.ground.value}"
+    slot-four:
+      value: "{color.green.fog.value}"
+    slot-five:
+      value: "{color.green.pine.value}"
+    slot-six:
+      value: "{color.blue.yale.value}"
+    slot-seven:
+      value: "{color.gray.800.value}"
+    slot-eight:
+      value: "{color.basic.white.value}"
+  "three":
+    background:
+      value: "{color.blue.yale.value}"
+    text:
+      value: "{color.basic.white.value}"
+    heading:
+      value: "{color.basic.white.value}"
+    slot-one:
+      value: "{color.blue.yale.value}"
+    slot-two:
+      value: "{color.blue.royal.value}"
+    slot-three:
+      value: "{color.orange.peach.value}"
+    slot-four:
+      value: "{color.yellow.umbrella.value}"
+    slot-five:
+      value: "{color.blue.slate.value}"
+    slot-six:
+      value: "{color.blue.yale.value}"
+    slot-seven:
+      value: "{color.gray.800.value}"
+    slot-eight:
+      value: "{color.basic.white.value}"
+  "four":
+    background:
+      value: "{color.blue.yale.value}"
+    text:
+      value: "{color.basic.white.value}"
+    heading:
+      value: "{color.basic.white.value}"
+    colors:
+      slot-one:
+        value: "{color.blue.yale.value}"
+      slot-two:
+        value: "{color.blue.oceanic.value}"
+      slot-three:
+        value: "{color.yellow.yale-gold.value}"
+      slot-four:
+        value: "{color.blue.soft.value}"
+      slot-five:
+        value: "{color.gray.500.value}"
+      slot-six:
+        value: "{color.blue.yale.value}"
+      slot-seven:
+        value: "{color.gray.900.value}"
+      slot-eight:
+        value: "{color.basic.white.value}"
+  "five":
+    background:
+      value: "{color.blue.soft-oceanic.value}"
+    text:
+      value: "{color.blue.yale.value}"
+    heading:
+      value: "{color.blue.yale.value}"
+    colors:
+      slot-one:
+        value: "{color.blue.yale.value}"
+      slot-two:
+        value: "{color.blue.oceanic.value}"
+      slot-three:
+        value: "{color.yellow.yale-gold.value}"
+      slot-four:
+        value: "{color.blue.soft.value}"
+      slot-five:
+        value: "{color.gray.500.value}"
+      slot-six:
+        value: "{color.blue.yale.value}"
+      slot-seven:
+        value: "{color.gray.900.value}"
+      slot-eight:
+        value: "{color.basic.white.value}"
+global-themes:
+  "one":
+    label:
+      value: "Old Blues"
+    colors:
+      slot-one:
+        value: "{color.blue.yale.value}"
+      slot-two:
+        value: "{color.blue.medium.value}"
+      slot-three:
+        value: "{color.blue.light.value}"
+      slot-four:
+        value: "{color.gray.100.value}"
+      slot-five:
+        value: "{color.gray.800.value}"
+      slot-six:
+        value: "{color.blue.yale.value}"
+      slot-seven:
+        value: "{color.gray.800.value}"
+      slot-eight:
+        value: "{color.basic.white.value}"
+  "two":
+    label:
+      value: "New Haven Green"
+    colors:
+      slot-one:
+        value: "{color.gray.700.value}"
+      slot-two:
+        value: "{color.green.basil.value}"
+      slot-three:
+        value: "{color.green.ground.value}"
+      slot-four:
+        value: "{color.green.fog.value}"
+      slot-five:
+        value: "{color.green.pine.value}"
+      slot-six:
+        value: "{color.blue.yale.value}"
+      slot-seven:
+        value: "{color.gray.800.value}"
+      slot-eight:
+        value: "{color.basic.white.value}"
+  "three":
+    label:
+      value: "Shoreline Summer"
+    colors:
+      slot-one:
+        value: "{color.blue.yale.value}"
+      slot-two:
+        value: "{color.blue.royal.value}"
+      slot-three:
+        value: "{color.orange.peach.value}"
+      slot-four:
+        value: "{color.yellow.umbrella.value}"
+      slot-five:
+        value: "{color.blue.slate.value}"
+      slot-six:
+        value: "{color.blue.yale.value}"
+      slot-seven:
+        value: "{color.gray.800.value}"
+      slot-eight:
+        value: "{color.basic.white.value}"
+  "four":
+    label:
+      value: "Onha"
+    colors:
+      slot-one:
+        value: "{color.blue.yale.value}"
+      slot-two:
+        value: "{color.blue.oceanic.value}"
+      slot-three:
+        value: "{color.yellow.yale-gold.value}"
+      slot-four:
+        value: "{color.blue.soft.value}"
+      slot-five:
+        value: "{color.gray.500.value}"
+      slot-six:
+        value: "{color.blue.yale.value}"
+      slot-seven:
+        value: "{color.gray.900.value}"
+      slot-eight:
+        value: "{color.basic.white.value}"
+  "five":
+    label:
+      value: "It’s Your Yale"
+    colors:
+      slot-one:
+        value: "{color.blue.yale.value}"
+      slot-two:
+        value: "{color.blue.medium.value}"
+      slot-three:
+        value: "{color.orange.coral.value}"
+      slot-four:
+        value: "{color.gray.100.value}"
+      slot-five:
+        value: "{color.blue.deep-teal.value}"
+      slot-six:
+        value: "{color.blue.yale.value}"
+      slot-seven:
+        value: "{color.gray.900.value}"
+      slot-eight:
+        value: "{color.basic.white.value}"
+  "six":
+    label:
+      value: "AI"
+    colors:
+      slot-one:
+        value: "{color.blue.yale.value}"
+      slot-two:
+        value: "{color.blue.medium.value}"
+      slot-three:
+        value: "{color.blue.light.value}"
+      slot-four:
+        value: "{color.yellow.yale-gold.value}"
+      slot-five:
+        value: "{color.gray.700.value}"
+      slot-six:
+        value: "{color.blue.yale.value}"
+      slot-seven:
+        value: "{color.gray.800.value}"
+      slot-eight:
+        value: "{color.basic.white.value}"
+  "seven":
+    label:
+      value: "Whitney Humanities Center"
+    colors:
+      slot-one:
+        value: "{color.purple.plum.value}"
+      slot-two:
+        value: "{color.blue.ocean.value}"
+      slot-three:
+        value: "{color.blue.mint.value}"
+      slot-four:
+        value: "{color.brown.sand.value}"
+      slot-five:
+        value: "{color.brown.mushroom.value}"
+      slot-six:
+        value: "{color.blue.yale.value}"
+      slot-seven:
+        value: "{color.gray.800.value}"
+      slot-eight:
+        value: "{color.basic.white.value}"
+basic-themes:
+  "gray-800":
+    background:
+      value: "{color.gray.800.value}"
+    text:
+      value: "{color.basic.white.value}"
+    heading:
+      value: "{color.basic.white.value}"
+  "gray-700":
+    background:
+      value: "{color.gray.700.value}"
+    text:
+      value: "{color.basic.white.value}"
+    heading:
+      value: "{color.basic.white.value}"
+  "gray-200":
+    background:
+      value: "{color.gray.200.value}"
+    text:
+      value: "{color.gray.700.value}"
+    heading:
+      value: "{color.gray.800.value}"
+  "gray-100":
+    background:
+      value: "{color.gray.100.value}"
+    text:
+      value: "{color.gray.700.value}"
+    heading:
+      value: "{color.gray.800.value}"
+  "white":
+    background:
+      value: "{color.basic.white.value}"
+    text:
+      value: "{color.gray.700.value}"
+    heading:
+      value: "{color.gray.800.value}"
+  "blue-yale":
+    background:
+      value: "{color.blue.yale.value}"
+    text:
+      value: "{color.basic.white.value}"
+    heading:
+      value: "{color.basic.white.value}"
+button-cta-themes:
+  "one":
+    background:
+      value: "{color.blue.yale.value}"
+    text:
+      value: "{color.basic.white.value}"
+    slot-one:
+      value: "{color.blue.yale.value}"
+    slot-two:
+      value: "{color.blue.medium.value}"
+    slot-three:
+      value: "{color.blue.light.value}"
+    slot-four:
+      value: "{color.blue.pewter.value}"
+    slot-five:
+      value: "{color.gray.hale.value}"
+    slot-six:
+      value: "{color.blue.yale.value}"
+    slot-seven:
+      value: "{color.gray.800.value}"
+    slot-eight:
+      value: "{color.basic.white.value}"
+  "two":
+    background:
+      value: "{color.blue.medium.value}"
+    text:
+      value: "{color.basic.white.value}"
+    slot-one:
+      value: "{color.blue.yale.value}"
+    slot-two:
+      value: "{color.blue.medium.value}"
+    slot-three:
+      value: "{color.blue.light.value}"
+    slot-four:
+      value: "{color.blue.pewter.value}"
+    slot-five:
+      value: "{color.gray.hale.value}"
+    slot-six:
+      value: "{color.blue.yale.value}"
+    slot-seven:
+      value: "{color.gray.800.value}"
+    slot-eight:
+      value: "{color.basic.white.value}"
+  "three":
+    background:
+      value: "{color.blue.light.value}"
+    text:
+      value: "{color.basic.white.value}"
+    slot-one:
+      value: "{color.blue.yale.value}"
+    slot-two:
+      value: "{color.blue.medium.value}"
+    slot-three:
+      value: "{color.blue.light.value}"
+    slot-four:
+      value: "{color.blue.pewter.value}"
+    slot-five:
+      value: "{color.gray.hale.value}"
+    slot-six:
+      value: "{color.blue.yale.value}"
+    slot-seven:
+      value: "{color.gray.800.value}"
+    slot-eight:
+      value: "{color.basic.white.value}"
+  "four":
+    background:
+      value: "{color.blue.pewter.value}"
+    text:
+      value: "{color.basic.white.value}"
+    slot-one:
+      value: "{color.blue.yale.value}"
+    slot-two:
+      value: "{color.blue.medium.value}"
+    slot-three:
+      value: "{color.blue.light.value}"
+    slot-four:
+      value: "{color.blue.pewter.value}"
+    slot-five:
+      value: "{color.gray.hale.value}"
+    slot-six:
+      value: "{color.blue.yale.value}"
+    slot-seven:
+      value: "{color.gray.800.value}"
+    slot-eight:
+      value: "{color.basic.white.value}"
+  "five":
+    background:
+      value: "{color.gray.hale.value}"
+    text:
+      value: "{color.basic.white.value}"
+    slot-one:
+      value: "{color.blue.yale.value}"
+    slot-two:
+      value: "{color.blue.medium.value}"
+    slot-three:
+      value: "{color.blue.light.value}"
+    slot-four:
+      value: "{color.blue.pewter.value}"
+    slot-five:
+      value: "{color.gray.hale.value}"
+    slot-six:
+      value: "{color.blue.yale.value}"
+    slot-seven:
+      value: "{color.gray.800.value}"
+    slot-eight:
+      value: "{color.basic.white.value}"
+  "six":
+    background:
+      value: "{color.gray.800.value}"
+    text:
+      value: "{color.basic.white.value}"
+    slot-one:
+      value: "{color.blue.yale.value}"
+    slot-two:
+      value: "{color.blue.medium.value}"
+    slot-three:
+      value: "{color.blue.light.value}"
+    slot-four:
+      value: "{color.blue.pewter.value}"
+    slot-five:
+      value: "{color.gray.hale.value}"
+    slot-six:
+      value: "{color.blue.yale.value}"
+    slot-seven:
+      value: "{color.gray.800.value}"
+    slot-eight:
+      value: "{color.basic.white.value}"
+  "seven":
+    background:
+      value: "{color.blue.yale.value}"
+    text:
+      value: "{color.basic.white.value}"
+    slot-one:
+      value: "{color.blue.yale.value}"
+    slot-two:
+      value: "{color.blue.medium.value}"
+    slot-three:
+      value: "{color.blue.light.value}"
+    slot-four:
+      value: "{color.blue.pewter.value}"
+    slot-five:
+      value: "{color.gray.hale.value}"
+    slot-six:
+      value: "{color.blue.yale.value}"
+    slot-seven:
+      value: "{color.gray.800.value}"
+    slot-eight:
+      value: "{color.basic.white.value}"

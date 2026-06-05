@@ -1,0 +1,11 @@
+uuid: 3b20f13c-e64a-483d-9c03-e3b763aea970
+langcode: en
+status: true
+dependencies: {  }
+name: Research
+type: research
+description: 'Research projects (Yale recreation).'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,493 @@
+{
+  "site": "undergrad.stanford.edu",
+  "url": "https://undergrad.stanford.edu/programs/bhc/about/what-expect-during-program",
+  "mode": "cdp",
+  "regions": {
+    "regions": [
+      {
+        "name": "header",
+        "selector": ".su-masthead",
+        "blocks": [
+          {
+            "type": "block-config-pages",
+            "classes": [
+              "config-pages-block",
+              "block-config-pages",
+              "block-vpue-undergrad-subtheme-header-links"
+            ],
+            "box": {
+              "w": 347,
+              "h": 0
+            }
+          },
+          {
+            "type": "component",
+            "classes": [
+              "su-site-search",
+              "su-site-search",
+              "search-block-form"
+            ],
+            "box": {
+              "w": 0,
+              "h": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "region-header",
+        "selector": ".region",
+        "blocks": []
+      },
+      {
+        "name": "region-search",
+        "selector": ".region",
+        "blocks": [
+          {
+            "type": "block-config-pages",
+            "classes": [
+              "config-pages-block",
+              "block-config-pages",
+              "block-vpue-undergrad-subtheme-header-links"
+            ],
+            "box": {
+              "w": 347,
+              "h": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "region-menu",
+        "selector": ".region",
+        "blocks": [
+          {
+            "type": "component",
+            "classes": [
+              "su-site-search",
+              "su-site-search",
+              "search-block-form"
+            ],
+            "box": {
+              "w": 0,
+              "h": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "nav",
+        "selector": ".su-multi-menu--dropdowns",
+        "blocks": [
+          {
+            "type": "component",
+            "classes": [
+              "su-site-search",
+              "su-site-search",
+              "search-block-form"
+            ],
+            "box": {
+              "w": 0,
+              "h": 0
+            }
+          }
+        ]
+      },
+      {
+        "name": "main",
+        "selector": ".page-content",
+        "blocks": [
+          {
+            "type": "block-system",
+            "classes": [
+              "system-main-block",
+              "block-system",
+              "block-vpue-undergrad-subtheme-content"
+            ],
+            "box": {
+              "w": 1280,
+              "h": 1173
+            }
+          },
+          {
+            "type": "block-layout-builder",
+            "classes": [
+              "field-block",
+              "node-stanford-page-title",
+              "block-layout-builder"
+            ],
+            "box": {
+              "w": 1080,
+              "h": 53
+            }
+          },
+          {
+            "type": "block-menu",
+            "classes": [
+              "menu-block",
+              "main",
+              "block",
+              "block-menu",
+              "navigation",
+              "menu--main"
+            ],
+            "box": {
+              "w": 240,
+              "h": 535
+            }
+          },
+          {
+            "type": "block-jumpstart-ui",
+            "classes": [
+              "jumpstart-ui-skipnav-main-anchor",
+              "block-jumpstart-ui"
+            ],
+            "box": {
+              "w": 720,
+              "h": 0
+            }
+          },
+          {
+            "type": "block-layout-builder",
+            "classes": [
+              "field-block",
+              "node-stanford-page-su-page-components",
+              "block-layout-builder"
+            ],
+            "box": {
+              "w": 720,
+              "h": 1019
+            }
+          }
+        ]
+      },
+      {
+        "name": "nav",
+        "selector": ".su-multi-menu--dropdowns",
+        "blocks": []
+      },
+      {
+        "name": "div",
+        "selector": ".layout__region",
+        "blocks": []
+      },
+      {
+        "name": "footer",
+        "selector": "footer",
+        "blocks": [
+          {
+            "type": "block-config-pages",
+            "classes": [
+              "config-pages-block",
+              "block-config-pages",
+              "block-vpue-undergrad-subtheme-config-pages"
+            ],
+            "box": {
+              "w": 1280,
+              "h": 479
+            }
+          }
+        ]
+      },
+      {
+        "name": "nav",
+        "selector": ".vpue-fat-footer__links-section",
+        "blocks": []
+      },
+      {
+        "name": "nav",
+        "selector": ".vpue-fat-footer__links-section",
+        "blocks": []
+      },
+      {
+        "name": "nav",
+        "selector": "nav",
+        "blocks": []
+      }
+    ],
+    "layoutSystem": "layout_paragraphs",
+    "signals": {
+      "region--": 0,
+      "layout__region": 2,
+      "layout--": 1,
+      "layout-paragraphs": 1,
+      "block-": 8,
+      "paragraph--type--": 2,
+      "data-component": 0,
+      "views-row": 0
+    }
+  },
+  "tokens": {
+    "spacing": [
+      12,
+      29.1796,
+      29.4434,
+      36
+    ],
+    "typography": {
+      "family": [
+        "lora",
+        "Source Sans 3",
+        "Source Sans Pro",
+        "Helvetica Neue",
+        "Helvetica",
+        "Arial",
+        "sans-serif"
+      ],
+      "sizes": [
+        16,
+        18,
+        20,
+        28.125,
+        35.1562,
+        43.9454
+      ],
+      "weights": [
+        400,
+        600,
+        700
+      ],
+      "lineHeights": [
+        20,
+        22.4,
+        42.19,
+        52.73
+      ]
+    },
+    "colors": {
+      "palette": [
+        "rgb(46, 45, 41)",
+        "rgb(0, 108, 184)",
+        "rgb(255, 255, 255)"
+      ],
+      "text": [
+        "rgb(46, 45, 41)",
+        "rgb(0, 108, 184)"
+      ],
+      "background": [
+        "rgb(255, 255, 255)"
+      ]
+    },
+    "radii": [],
+    "shadows": [],
+    "samples": {
+      "body": {
+        "margin": "0px",
+        "padding": "0px",
+        "fontFamily": "lora",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "color": "rgb(46, 45, 41)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "h1": {
+        "margin": "0px 0px 29.4434px",
+        "padding": "0px",
+        "fontFamily": "lora",
+        "fontSize": "43.9454px",
+        "fontWeight": "700",
+        "lineHeight": "52.7345px",
+        "color": "rgb(46, 45, 41)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "h2": {
+        "margin": "0px 0px 29.1796px",
+        "padding": "0px",
+        "fontFamily": "lora",
+        "fontSize": "35.1562px",
+        "fontWeight": "700",
+        "lineHeight": "42.1874px",
+        "color": "rgb(46, 45, 41)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "h3": {
+        "margin": "0px 0px 12px",
+        "padding": "0px",
+        "fontFamily": "lora",
+        "fontSize": "16px",
+        "fontWeight": "700",
+        "lineHeight": "22.4px",
+        "color": "rgb(46, 45, 41)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "p": {
+        "margin": "0px 0px 36px",
+        "padding": "0px",
+        "fontFamily": "lora",
+        "fontSize": "28.125px",
+        "fontWeight": "400",
+        "lineHeight": "42.1875px",
+        "color": "rgb(46, 45, 41)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "a": {
+        "margin": "0px",
+        "padding": "0px",
+        "fontFamily": "lora",
+        "fontSize": "18px",
+        "fontWeight": "600",
+        "lineHeight": "normal",
+        "color": "rgb(0, 108, 184)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "button": {
+        "margin": "0px",
+        "padding": "0px",
+        "fontFamily": "\"Source Sans 3\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "20px",
+        "color": "rgb(46, 45, 41)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "nav": {
+        "margin": "0px",
+        "padding": "0px",
+        "fontFamily": "\"Source Sans 3\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "color": "rgb(46, 45, 41)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      }
+    }
+  },
+  "scroll": {
+    "pattern": "static",
+    "states": [
+      {
+        "offset": 0,
+        "position": "relative",
+        "transform": "none",
+        "height": 274,
+        "classes": [
+          "su-masthead",
+          "su-masthead--right"
+        ]
+      },
+      {
+        "offset": 200,
+        "position": "relative",
+        "transform": "none",
+        "height": 274,
+        "classes": [
+          "su-masthead",
+          "su-masthead--right"
+        ]
+      },
+      {
+        "offset": 500,
+        "position": "relative",
+        "transform": "none",
+        "height": 274,
+        "classes": [
+          "su-masthead",
+          "su-masthead--right"
+        ]
+      },
+      {
+        "offset": 900,
+        "position": "relative",
+        "transform": "none",
+        "height": 274,
+        "classes": [
+          "su-masthead",
+          "su-masthead--right"
+        ]
+      }
+    ],
+    "library": null
+  },
+  "seo": {
+    "title": "What to Expect During the Program | Undergrad",
+    "canonical": "https://undergrad.stanford.edu/programs/bhc/about/what-expect-during-program",
+    "openGraph": [
+      "og:site_name",
+      "og:type",
+      "og:url",
+      "og:title"
+    ],
+    "twitter": [
+      "twitter:card",
+      "twitter:title"
+    ],
+    "jsonLdTypes": [],
+    "sitemapStatus": 200,
+    "robotsDirectives": 44
+  },
+  "fingerprint": {
+    "drupalCore": "Drupal 11",
+    "hosting": "Acquia",
+    "modules": [
+      {
+        "name": "google_tag",
+        "confidence": "confirmed",
+        "evidence": "asset path /modules/contrib/google_tag"
+      },
+      {
+        "name": "paragraphs",
+        "confidence": "inferred",
+        "evidence": "markup signature"
+      },
+      {
+        "name": "layout_builder",
+        "confidence": "inferred",
+        "evidence": "markup signature"
+      },
+      {
+        "name": "layout_paragraphs",
+        "confidence": "inferred",
+        "evidence": "markup signature"
+      }
+    ]
+  },
+  "services": {
+    "services": [
+      {
+        "category": "events",
+        "name": "Localist",
+        "confidence": "likely",
+        "evidence": "localist"
+      },
+      {
+        "category": "fonts",
+        "name": "Google Fonts",
+        "confidence": "confirmed",
+        "evidence": "fonts.googleapis.com"
+      },
+      {
+        "category": "fonts",
+        "name": "Font Awesome",
+        "confidence": "likely",
+        "evidence": "fontawesome"
+      },
+      {
+        "category": "a11y",
+        "name": "Siteimprove",
+        "confidence": "likely",
+        "evidence": "siteimprove"
+      }
+    ]
+  },
+  "screenshots": [
+    "out/screenshots/undergrad_stanford_edu.jpg"
+  ],
+  "capturedAt": "2026-06-05T07:40:30.151Z"
+}

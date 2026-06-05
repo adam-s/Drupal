@@ -1,0 +1,11 @@
+uuid: b7d32005-e31a-46b9-8b9a-f3bd1d556e5b
+langcode: en
+status: true
+dependencies: {  }
+name: Event
+type: event
+description: 'Events (Yale recreation).'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

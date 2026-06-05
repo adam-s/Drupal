@@ -1,0 +1,25 @@
+uuid: 4719cd81-8cb9-4f98-bf6e-ab44922e40a8
+langcode: en
+status: true
+dependencies:
+  module:
+    - meridian_patterns
+    - system
+  theme:
+    - yale
+id: yale_tiles
+theme: yale
+region: content
+weight: 20
+provider: null
+plugin: meridian_tiles
+settings:
+  id: meridian_tiles
+  label: 'Tiles mosaic'
+  label_display: '0'
+  provider: meridian_patterns
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * @file
+ * Meridian Patterns — original common-web-pattern components.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function meridian_patterns_theme($existing, $type, $theme, $path) {
+  return [
+    'featured_news' => [
+      'variables' => ['heading' => '', 'featured' => NULL, 'items' => [], 'topics' => []],
+    ],
+    'feature_banner' => [
+      'variables' => ['tab' => '', 'featured' => NULL, 'cards' => []],
+    ],
+    'tiles_mosaic' => [
+      'variables' => ['eyebrow' => '', 'heading' => '', 'topics' => [], 'tiles' => []],
+    ],
+  ];
+}

@@ -1,0 +1,19 @@
+uuid: 345e2820-2fcd-443e-bb7d-590f81b4a826
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_location
+    - node.type.event
+id: node.event.field_location
+field_name: field_location
+entity_type: node
+bundle: event
+label: Location
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

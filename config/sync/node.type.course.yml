@@ -1,0 +1,11 @@
+uuid: 2634317c-f5d8-492f-992b-3612b20dffac
+langcode: en
+status: true
+dependencies: {  }
+name: Course
+type: course
+description: 'Courses / individual class pages (Yale recreation).'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

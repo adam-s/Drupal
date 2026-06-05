@@ -1,0 +1,36 @@
+# DRAFT — review only. Faculty/staff profile content type.
+name: 'Tulane Person'
+description: 'Faculty/staff directory profile content type with fields and Person schema.'
+type: 'Content type'
+install:
+  - node
+  - field
+  - image
+  - media
+  - media_library
+  - auto_entitylabel        # build title from first/last name
+  - field_group
+  - schema_metatag          # Person structured data
+  - schema_person
+config:
+  # The real recipe ships these as config/ files (field.storage.*, field.field.*,
+  # core.entity_*_display.*). Fields proposed (see component-backlog + people-vs-users):
+  #   field_first_name (string, req), field_last_name (string, req)
+  #   field_title (string)            — job/role title
+  #   field_photo (media: image)
+  #   field_bio (text_long)
+  #   field_department (entity_ref: taxonomy or node: department)
+  #   field_email (email), field_phone (telephone)
+  #   field_office (string), field_office_hours (string)
+  #   field_research_interests (entity_ref: taxonomy, multi)
+  #   field_links (link, multi)       — profiles/CV/sameAs
+  #   field_user (entity_ref: user)   — optional link to a login account (faculty self-edit)
+  actions:
+    # Person schema mapping (illustrative)
+    schema_metatag.settings:
+      simpleConfigUpdate:
+        person_enabled_bundles:
+          - 'node:person'
+# Notes:
+# - "Person = content" (directory), distinct from User accounts — see people-vs-users.
+# - Consider LDAP/HR sync for bulk population (migrate_plus/migrate_tools) rather than manual.

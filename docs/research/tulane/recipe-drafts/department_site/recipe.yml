@@ -1,0 +1,39 @@
+# DRAFT — review only. Composed recipe: provision a Tulane department subsite.
+name: 'Tulane Department Site'
+description: 'Provisions a brand-compliant, accessible department subsite: content types,
+  components, workflow, roles, accessibility, SEO.'
+type: 'Site'
+recipes:
+  # Applied depth-first, in order. Each is its own reusable unit.
+  - accessibility_defaults
+  - editorial_workflow
+  - tulane_person
+  - tulane_program
+  - tulane_event
+  # - tulane_components   # (future) the Paragraph component library from component-backlog.md
+install:
+  # SEO + search + media baseline (peer-standard stack; see yalesites/modules.md)
+  - metatag
+  - pathauto
+  - redirect
+  - simple_sitemap
+  - search_api
+  - media_library
+  - layout_builder
+  - layout_builder_restrictions
+  - schema_metatag
+config:
+  actions:
+    # Site-wide Organization / CollegeOrUniversity schema (seo-schema-recommendation.md)
+    schema_metatag.settings:
+      simpleConfigUpdate:
+        organization_type: 'CollegeOrUniversity'
+    # Constrain Layout Builder so editors place components but can't break the brand
+    # (illustrative — restrict allowed blocks/layouts by role)
+# Provisioning flow (governance-models.md):
+#   ServiceNow request -> apply this recipe to a fresh subsite -> branded/accessible starter
+#   -> drush cex -> commit. Ongoing changes via config-sync, NOT re-applying this recipe.
+# Notes:
+# - This is the "request -> provisioned site" pipeline peers use (SLAC/Stanford/Yale).
+# - Brand tokens (tailwind.config) live in the theme, not this recipe.
+# - Decide D10 vs D11 before building (module versions differ).

@@ -1,0 +1,25 @@
+uuid: 450b3741-2cc3-473b-ab34-b8ed22681a9d
+langcode: en
+status: true
+dependencies:
+  module:
+    - meridian_patterns
+    - system
+  theme:
+    - yale
+id: yale_featured_news
+theme: yale
+region: content
+weight: -3
+provider: null
+plugin: meridian_featured_news
+settings:
+  id: meridian_featured_news
+  label: 'Featured news'
+  label_display: '0'
+  provider: meridian_patterns
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

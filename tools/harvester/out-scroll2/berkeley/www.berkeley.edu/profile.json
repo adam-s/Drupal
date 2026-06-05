@@ -1,0 +1,468 @@
+{
+  "site": "www.berkeley.edu",
+  "url": "https://www.berkeley.edu/",
+  "mode": "cdp",
+  "regions": {
+    "regions": [
+      {
+        "name": "nav",
+        "selector": ".skip-nav",
+        "blocks": []
+      },
+      {
+        "name": "header",
+        "selector": ".Hero",
+        "blocks": []
+      },
+      {
+        "name": "nav",
+        "selector": "nav",
+        "blocks": []
+      },
+      {
+        "name": "nav",
+        "selector": ".menu",
+        "blocks": []
+      },
+      {
+        "name": "main",
+        "selector": "main",
+        "blocks": [
+          {
+            "type": "block--text",
+            "classes": [
+              "building-block",
+              "block--text",
+              "bg--none",
+              "text--lead-text"
+            ],
+            "box": {
+              "w": 1280,
+              "h": 381
+            }
+          },
+          {
+            "type": "block--text__text",
+            "classes": [
+              "block--text__text",
+              "text--bg-small"
+            ],
+            "box": {
+              "w": 1030,
+              "h": 100
+            }
+          },
+          {
+            "type": "block--columns",
+            "classes": [
+              "building-block",
+              "block--columns",
+              "bg--none"
+            ],
+            "box": {
+              "w": 1280,
+              "h": 585
+            }
+          },
+          {
+            "type": "block--stats",
+            "classes": [
+              "building-block",
+              "block--stats",
+              "bg--none"
+            ],
+            "box": {
+              "w": 1280,
+              "h": 568
+            }
+          },
+          {
+            "type": "block--banner",
+            "classes": [
+              "building-block",
+              "block--banner",
+              "bg--california-gold"
+            ],
+            "box": {
+              "w": 1280,
+              "h": 379
+            }
+          },
+          {
+            "type": "block--banner__text",
+            "classes": [
+              "block--banner__text"
+            ],
+            "box": {
+              "w": 1000,
+              "h": 62
+            }
+          },
+          {
+            "type": "block--article_cards",
+            "classes": [
+              "building-block",
+              "block--article_cards",
+              "bg--none"
+            ],
+            "box": {
+              "w": 1280,
+              "h": 892
+            }
+          },
+          {
+            "type": "block--columns",
+            "classes": [
+              "building-block",
+              "block--columns",
+              "bg--none"
+            ],
+            "box": {
+              "w": 1280,
+              "h": 793
+            }
+          },
+          {
+            "type": "block--columns__intro",
+            "classes": [
+              "block--columns__intro",
+              "content--restricted-text"
+            ],
+            "box": {
+              "w": 1088,
+              "h": 60
+            }
+          },
+          {
+            "type": "block--columns",
+            "classes": [
+              "building-block",
+              "block--columns",
+              "bg--none"
+            ],
+            "box": {
+              "w": 1280,
+              "h": 719
+            }
+          },
+          {
+            "type": "block--columns__intro",
+            "classes": [
+              "block--columns__intro",
+              "content--restricted-text"
+            ],
+            "box": {
+              "w": 1088,
+              "h": 30
+            }
+          },
+          {
+            "type": "block--columns",
+            "classes": [
+              "building-block",
+              "block--columns",
+              "bg--none"
+            ],
+            "box": {
+              "w": 1280,
+              "h": 819
+            }
+          }
+        ]
+      },
+      {
+        "name": "footer",
+        "selector": "footer",
+        "blocks": []
+      }
+    ],
+    "layoutSystem": "blocks",
+    "signals": {
+      "region--": 0,
+      "layout__region": 0,
+      "layout--": 0,
+      "layout-paragraphs": 0,
+      "block-": 15,
+      "paragraph--type--": 0,
+      "data-component": 0,
+      "views-row": 0
+    }
+  },
+  "tokens": {
+    "spacing": [
+      6,
+      10,
+      13,
+      15,
+      25.6,
+      96
+    ],
+    "typography": {
+      "family": [
+        "Inter",
+        "sans-serif"
+      ],
+      "sizes": [
+        12,
+        16,
+        20,
+        25.6,
+        48
+      ],
+      "weights": [
+        400,
+        700,
+        900
+      ],
+      "lineHeights": [
+        18,
+        24,
+        28.8,
+        30,
+        33.28,
+        62.4
+      ]
+    },
+    "colors": {
+      "palette": [
+        "rgb(38, 38, 38)",
+        "rgb(0, 38, 118)",
+        "rgb(255, 255, 255)",
+        "rgb(0, 0, 0)",
+        "rgb(242, 242, 242)"
+      ],
+      "text": [
+        "rgb(38, 38, 38)",
+        "rgb(0, 38, 118)",
+        "rgb(255, 255, 255)",
+        "rgb(0, 0, 0)"
+      ],
+      "background": [
+        "rgb(255, 255, 255)",
+        "rgb(242, 242, 242)",
+        "rgb(0, 38, 118)"
+      ]
+    },
+    "radii": [
+      8,
+      50
+    ],
+    "shadows": [],
+    "samples": {
+      "body": {
+        "margin": "0px",
+        "padding": "0px",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "color": "rgb(38, 38, 38)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "h1": {
+        "margin": "0px",
+        "padding": "0px",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "48px",
+        "fontWeight": "900",
+        "lineHeight": "62.4px",
+        "color": "rgb(0, 38, 118)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "h2": {
+        "margin": "0px 0px 10px",
+        "padding": "15px 13px 15px 6px",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "700",
+        "lineHeight": "18px",
+        "color": "rgb(0, 38, 118)",
+        "backgroundColor": "rgb(242, 242, 242)",
+        "borderRadius": "8px",
+        "boxShadow": "none"
+      },
+      "h3": {
+        "margin": "0px",
+        "padding": "0px",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "25.6px",
+        "fontWeight": "700",
+        "lineHeight": "28.8px",
+        "color": "rgb(38, 38, 38)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "p": {
+        "margin": "25.6px 0px 0px",
+        "padding": "0px",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "25.6px",
+        "fontWeight": "400",
+        "lineHeight": "33.28px",
+        "color": "rgb(38, 38, 38)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "a": {
+        "margin": "-1px",
+        "padding": "0px",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(0, 38, 118)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "button": {
+        "margin": "0px",
+        "padding": "0px",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "700",
+        "lineHeight": "normal",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "50%",
+        "boxShadow": "none"
+      },
+      "[class*=\"card\"]": {
+        "margin": "0px",
+        "padding": "96px 0px",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "color": "rgb(38, 38, 38)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "[class*=\"btn\"]": {
+        "margin": "0px",
+        "padding": "0px",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "700",
+        "lineHeight": "normal",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "50%",
+        "boxShadow": "none"
+      },
+      "nav": {
+        "margin": "0px",
+        "padding": "0px",
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "color": "rgb(38, 38, 38)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      }
+    }
+  },
+  "scroll": {
+    "pattern": "static",
+    "states": [
+      {
+        "offset": 0,
+        "position": "relative",
+        "transform": "none",
+        "height": 42,
+        "classes": [
+          "navbar-form"
+        ]
+      },
+      {
+        "offset": 400,
+        "position": "relative",
+        "transform": "none",
+        "height": 42,
+        "classes": [
+          "navbar-form"
+        ]
+      },
+      {
+        "offset": 1000,
+        "position": "relative",
+        "transform": "none",
+        "height": 42,
+        "classes": [
+          "navbar-form"
+        ]
+      },
+      {
+        "offset": 2000,
+        "position": "relative",
+        "transform": "none",
+        "height": 42,
+        "classes": [
+          "navbar-form"
+        ]
+      },
+      {
+        "offset": -1,
+        "position": "relative",
+        "transform": "none",
+        "height": 42,
+        "classes": [
+          "navbar-form"
+        ]
+      }
+    ],
+    "library": null
+  },
+  "seo": {
+    "title": "University of California, Berkeley: Home",
+    "description": "UC Berkeley pushes the boundaries of knowledge, challenges convention and expands opportunity to create the leaders of tomorrow.",
+    "canonical": "https://www.berkeley.edu/",
+    "openGraph": [
+      "og:locale",
+      "og:type",
+      "og:title",
+      "og:description",
+      "og:url",
+      "og:site_name"
+    ],
+    "twitter": [
+      "twitter:card"
+    ],
+    "jsonLdTypes": [],
+    "sitemapStatus": 200,
+    "robotsDirectives": 2
+  },
+  "fingerprint": {
+    "hosting": "Cloudflare",
+    "modules": []
+  },
+  "services": {
+    "services": [
+      {
+        "category": "fonts",
+        "name": "Google Fonts",
+        "confidence": "confirmed",
+        "evidence": "fonts.googleapis.com"
+      },
+      {
+        "category": "a11y",
+        "name": "Siteimprove",
+        "confidence": "likely",
+        "evidence": "siteimprove"
+      }
+    ]
+  },
+  "screenshots": [
+    "out/screenshots/www_berkeley_edu.jpg"
+  ],
+  "capturedAt": "2026-06-05T08:44:00.987Z"
+}

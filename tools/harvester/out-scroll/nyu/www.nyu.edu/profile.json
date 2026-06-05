@@ -1,0 +1,312 @@
+{
+  "site": "www.nyu.edu",
+  "url": "https://www.nyu.edu/",
+  "mode": "cdp",
+  "regions": {
+    "regions": [
+      {
+        "name": "header",
+        "selector": ".cmp-nyu-main-navigation",
+        "blocks": []
+      },
+      {
+        "name": "nav",
+        "selector": ".cmp-nyu-main-navigation__nav",
+        "blocks": []
+      },
+      {
+        "name": "nav",
+        "selector": ".cmp-nyu-main-navigation__nav",
+        "blocks": []
+      },
+      {
+        "name": "nav",
+        "selector": ".cmp-breadcrumbs-navigation",
+        "blocks": []
+      },
+      {
+        "name": "main",
+        "selector": ".cmp-main-start",
+        "blocks": []
+      },
+      {
+        "name": "footer",
+        "selector": ".cmp-footer-navigation",
+        "blocks": []
+      }
+    ],
+    "layoutSystem": "unknown",
+    "signals": {
+      "region--": 0,
+      "layout__region": 0,
+      "layout--": 0,
+      "layout-paragraphs": 0,
+      "block-": 0,
+      "paragraph--type--": 0,
+      "data-component": 0,
+      "views-row": 0
+    }
+  },
+  "tokens": {
+    "spacing": [
+      8,
+      12,
+      16,
+      24,
+      32,
+      48,
+      574
+    ],
+    "typography": {
+      "family": [
+        "NYU Perstare",
+        "NYUPerstare",
+        "helvetica neue",
+        "helvetica",
+        "Cantarell",
+        "Ubuntu",
+        "roboto",
+        "noto",
+        "arial",
+        "sans-serif"
+      ],
+      "sizes": [
+        14,
+        16,
+        20,
+        36
+      ],
+      "weights": [
+        400,
+        700
+      ],
+      "lineHeights": [
+        21,
+        24,
+        28,
+        43.2
+      ]
+    },
+    "colors": {
+      "palette": [
+        "rgb(11, 11, 11)",
+        "rgb(255, 255, 255)",
+        "rgb(87, 6, 140)",
+        "rgb(247, 247, 247)"
+      ],
+      "text": [
+        "rgb(11, 11, 11)",
+        "rgb(255, 255, 255)",
+        "rgb(87, 6, 140)"
+      ],
+      "background": [
+        "rgb(255, 255, 255)",
+        "rgb(87, 6, 140)",
+        "rgb(247, 247, 247)"
+      ]
+    },
+    "radii": [
+      3
+    ],
+    "shadows": [],
+    "samples": {
+      "body": {
+        "margin": "0px",
+        "padding": "0px",
+        "fontFamily": "\"NYU Perstare\", NYUPerstare, \"helvetica neue\", helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "color": "rgb(11, 11, 11)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "h1": {
+        "margin": "-1px",
+        "padding": "0px",
+        "fontFamily": "\"NYU Perstare\", NYUPerstare, \"helvetica neue\", helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "h2": {
+        "margin": "0px",
+        "padding": "0px",
+        "fontFamily": "\"NYU Perstare\", NYUPerstare, \"helvetica neue\", helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif",
+        "fontSize": "36px",
+        "fontWeight": "700",
+        "lineHeight": "43.2px",
+        "color": "rgb(11, 11, 11)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "h3": {
+        "margin": "0px",
+        "padding": "0px 12px 0px 16px",
+        "fontFamily": "\"NYU Perstare\", NYUPerstare, \"helvetica neue\", helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "color": "rgb(87, 6, 140)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "p": {
+        "margin": "48px 0px 0px 574px",
+        "padding": "0px 24px 32px 0px",
+        "fontFamily": "\"NYU Perstare\", NYUPerstare, \"helvetica neue\", helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "lineHeight": "28px",
+        "color": "rgb(11, 11, 11)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "a": {
+        "margin": "0px",
+        "padding": "12px 16px",
+        "fontFamily": "\"NYU Perstare\", NYUPerstare, \"helvetica neue\", helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "21px",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(87, 6, 140)",
+        "borderRadius": "3px",
+        "boxShadow": "none"
+      },
+      "button": {
+        "margin": "0px",
+        "padding": "0px",
+        "fontFamily": "\"NYU Perstare\", NYUPerstare, \"helvetica neue\", helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      },
+      "[class*=\"btn\"]": {
+        "margin": "0px",
+        "padding": "12px",
+        "fontFamily": "\"NYU Perstare\", NYUPerstare, \"helvetica neue\", helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "21px",
+        "color": "rgb(87, 6, 140)",
+        "backgroundColor": "rgb(247, 247, 247)",
+        "borderRadius": "3px",
+        "boxShadow": "none"
+      },
+      "nav": {
+        "margin": "0px",
+        "padding": "0px 8px",
+        "fontFamily": "\"NYU Perstare\", NYUPerstare, \"helvetica neue\", helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      }
+    }
+  },
+  "scroll": {
+    "pattern": "shrink",
+    "states": [
+      {
+        "offset": 0,
+        "position": "static",
+        "transform": "none",
+        "height": 5478,
+        "classes": [
+          "cmp-experiencefragment",
+          "cmp-experiencefragment--header"
+        ]
+      },
+      {
+        "offset": 400,
+        "position": "static",
+        "transform": "none",
+        "height": 5478,
+        "classes": [
+          "cmp-experiencefragment",
+          "cmp-experiencefragment--header"
+        ]
+      },
+      {
+        "offset": 1000,
+        "position": "static",
+        "transform": "none",
+        "height": 5502,
+        "classes": [
+          "cmp-experiencefragment",
+          "cmp-experiencefragment--header"
+        ]
+      },
+      {
+        "offset": 2000,
+        "position": "static",
+        "transform": "none",
+        "height": 5502,
+        "classes": [
+          "cmp-experiencefragment",
+          "cmp-experiencefragment--header"
+        ]
+      },
+      {
+        "offset": -1,
+        "position": "static",
+        "transform": "none",
+        "height": 5502,
+        "classes": [
+          "cmp-experiencefragment",
+          "cmp-experiencefragment--header"
+        ]
+      }
+    ],
+    "library": null
+  },
+  "seo": {
+    "title": "New York University",
+    "description": "As a University community, we thrive in some of the world's most vibrant and fast-paced cities, and draw on their energy to propel the research, creativity, and conversation that make our campuses such exciting places to live and work. Sustaining this culture of discovery and innovation also requires finding a New York minute to reflect, recharge, and dream up the next big thing. The lush stillness of summer offers one such opportunity. ",
+    "canonical": "/content/nyuwww/us/en.html",
+    "openGraph": [
+      "og:title",
+      "og:description",
+      "og:url",
+      "og:image",
+      "og:type"
+    ],
+    "twitter": [],
+    "jsonLdTypes": [],
+    "sitemapStatus": 202,
+    "robotsDirectives": 0
+  },
+  "fingerprint": {
+    "modules": []
+  },
+  "services": {
+    "services": [
+      {
+        "category": "consent",
+        "name": "OneTrust",
+        "confidence": "confirmed",
+        "evidence": "cookielaw.org"
+      }
+    ]
+  },
+  "screenshots": [
+    "out/screenshots/www_nyu_edu.jpg"
+  ],
+  "capturedAt": "2026-06-05T08:12:43.659Z"
+}

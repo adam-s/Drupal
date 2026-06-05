@@ -1,0 +1,11 @@
+uuid: c3db25d2-50fd-453c-8830-53748adfc40d
+langcode: en
+status: true
+dependencies: {  }
+name: Person
+type: person
+description: 'Faculty/staff directory profile (Yale recreation).'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

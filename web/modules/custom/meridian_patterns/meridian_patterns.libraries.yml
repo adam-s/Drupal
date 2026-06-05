@@ -1,0 +1,6 @@
+tiles:
+  version: 1.x
+  js:
+    js/tiles.js: {}
+  dependencies:
+    - core/drupal

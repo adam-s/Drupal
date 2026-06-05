@@ -1,0 +1,28 @@
+uuid: aa1e41db-bd42-4865-98ba-71437c84b347
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:337bfd4e-e41d-4626-b9ee-a0480e139926'
+  module:
+    - block_content
+    - system
+  theme:
+    - yale
+id: yale_facts
+theme: yale
+region: footer_top
+weight: 0
+provider: null
+plugin: 'block_content:337bfd4e-e41d-4626-b9ee-a0480e139926'
+settings:
+  id: 'block_content:337bfd4e-e41d-4626-b9ee-a0480e139926'
+  label: ''
+  label_display: '0'
+  provider: block_content
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

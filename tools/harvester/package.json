@@ -1,0 +1,15 @@
+{
+  "name": "uni-drupal-harvester",
+  "private": true,
+  "type": "module",
+  "description": "Playwright/CDP tools that profile university Drupal sites: region/block structure, computed design tokens, scroll behavior, SEO, module + service fingerprints. Token-optimized evidence for LLM analysis.",
+  "scripts": {
+    "harvest": "playwright test",
+    "harvest:sweep": "HARVEST_TARGET=sweep playwright test targets/sweep.scenario.ts"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "sharp": "^0.33.5",
+    "typescript": "^5.6.0"
+  }
+}

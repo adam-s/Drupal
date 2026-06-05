@@ -1,0 +1,19 @@
+uuid: c0c0395e-84e6-4329-a0cf-5f5b863ce2de
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_research_areas
+    - node.type.person
+id: node.person.field_research_areas
+field_name: field_research_areas
+entity_type: node
+bundle: person
+label: 'Research Areas'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

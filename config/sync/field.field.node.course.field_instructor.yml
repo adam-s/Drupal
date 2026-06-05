@@ -1,0 +1,24 @@
+uuid: 2f7661ce-a46b-481e-babd-a098818f9d84
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_instructor
+    - node.type.course
+    - node.type.person
+id: node.course.field_instructor
+field_name: field_instructor
+entity_type: node
+bundle: course
+label: Instructor
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      person: person
+field_type: entity_reference

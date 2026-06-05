@@ -1,0 +1,88 @@
+uuid: a375cc05-b8b2-4a1f-92d3-140c27472269
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.news
+  module:
+    - node
+id: news_list
+label: News
+module: views
+description: 'Listing of News'
+tag: ''
+base_table: node_field_data
+base_field: nid
+display:
+  default:
+    id: default
+    display_title: Default
+    display_plugin: default
+    position: 0
+    display_options:
+      fields:
+        title:
+          id: title
+          table: node_field_data
+          field: title
+          plugin_id: field
+        created:
+          id: created
+          table: node_field_data
+          field: created
+          plugin_id: field
+      pager:
+        type: full
+        options:
+          items_per_page: 10
+      sorts:
+        created:
+          id: created
+          table: node_field_data
+          field: created
+          plugin_id: date
+          order: DESC
+      filters:
+        type:
+          id: type
+          table: node_field_data
+          field: type
+          plugin_id: bundle
+          value:
+            news: news
+        status:
+          id: status
+          table: node_field_data
+          field: status
+          plugin_id: boolean
+          value: '1'
+      style:
+        type: default
+      row:
+        type: fields
+      display_extenders: {  }
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+      tags: {  }
+  page_1:
+    id: page_1
+    display_title: Page
+    display_plugin: page
+    position: 1
+    display_options:
+      display_extenders: {  }
+      path: news
+      menu: {  }
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+      tags: {  }
