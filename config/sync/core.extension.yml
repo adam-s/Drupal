@@ -42,6 +42,7 @@ module:
   media: 0
   menu_link_content: 0
   menu_ui: 0
+  meridian_feature: 0
   meridian_patterns: 0
   mysql: 0
   node: 0

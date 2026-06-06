@@ -1,0 +1,9 @@
+meridian_feature.preview:
+  path: '/feature-banner/preview'
+  defaults:
+    _controller: '\Drupal\meridian_feature\Controller\PreviewController::preview'
+    _title: 'Feature banner preview'
+  requirements:
+    _permission: 'administer feature banners'
+  options:
+    no_cache: 'TRUE'

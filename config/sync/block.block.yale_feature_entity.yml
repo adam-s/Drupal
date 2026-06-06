@@ -1,0 +1,26 @@
+uuid: f5d698e9-5aac-454a-b313-2da148af127d
+langcode: en
+status: true
+dependencies:
+  module:
+    - meridian_feature
+    - system
+  theme:
+    - yale
+id: yale_feature_entity
+theme: yale
+region: content
+weight: 5
+provider: null
+plugin: meridian_feature_banner_entity
+settings:
+  id: meridian_feature_banner_entity
+  label: 'Feature banner (entity)'
+  label_display: '0'
+  provider: meridian_feature
+  banner_id: null
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

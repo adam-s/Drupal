@@ -1,0 +1,5 @@
+meridian_feature.feature_banner_add:
+  route_name: entity.feature_banner.add_form
+  title: 'Add feature banner'
+  appears_on:
+    - entity.feature_banner.collection

@@ -1,0 +1,5 @@
+meridian_feature.feature_banner_collection:
+  title: 'Feature banners'
+  description: 'Manage editorial feature banner sections.'
+  route_name: entity.feature_banner.collection
+  parent: system.admin_content

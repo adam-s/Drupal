@@ -73,6 +73,9 @@ main .yale-wrap { padding-block: var(--s8); }
 
 /* ---------- Node detail (clean — no Drupal cruft) ---------- */
 .node__meta, .node__submitted, .submitted, footer.node__meta { display: none; }
+/* Layout Builder landing: hide the paragraph field's label + node meta */
+.field--name-field-components > .field__label { display: none; }
+.node--type-landing .node__submitted, .layout-builder__message { display: none; }
 article .field { margin-block: var(--s5); }
 .field__label { font-size: .8rem; text-transform: uppercase; letter-spacing: .08em; color: var(--gray-500); font-weight: 700; margin-bottom: var(--s2); }
 .field--name-body { font-size: 1.1rem; color: var(--gray-800); }
@@ -82,6 +85,15 @@ article .field { margin-block: var(--s5); }
 .yale-callout { background: var(--yale-blue); color: var(--white); padding: var(--s8); margin-block: var(--s8); }
 .yale-callout .yale-eyebrow { color: var(--yale-gold); }
 .yale-callout h2 { color: var(--white); font-size: 2rem; }
+.yale-callout__text { margin-bottom: var(--s6); }
+/* paragraph theme variants (field_theme): blue (default) | gold | plain */
+.yale-callout--gold { background: var(--yale-gold); color: var(--gray-800); }
+.yale-callout--gold .yale-eyebrow { color: var(--blue-medium); }
+.yale-callout--gold h2 { color: var(--gray-800); }
+.yale-callout--plain { background: var(--gray-100); color: var(--gray-700); }
+.yale-callout--plain .yale-eyebrow { color: var(--blue-medium); }
+.yale-callout--plain h2 { color: var(--yale-blue); }
+.yale-callout--plain .yale-btn--solid { background: var(--yale-blue); }
 
 /* ---------- Facts & figures ---------- */
 .yale-facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px,1fr)); gap: var(--s7); text-align: center; margin-block: var(--s8); }
@@ -133,6 +145,18 @@ article .field { margin-block: var(--s5); }
 .c-feature__card-title { font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; display: block; margin-bottom: var(--s3); }
 .c-feature__card-summary { font-size: .9rem; display: block; line-height: 1.4; }
 .c-feature__card:hover .c-feature__card-title { text-decoration: underline; }
+/* solid color-block card (the orange one) — by card style, not position */
+.c-feature__card--solid { background: #c0561f; color: #fff; }
+.c-feature__card--solid::before { display: none; }
+.c-feature__card--solid .c-feature__card-title { font-size: 1.45rem; }
+/* short rule under each card eyebrow (matches the design detail) */
+.c-feature__card-eyebrow { position: relative; padding-bottom: var(--s4); }
+.c-feature__card-eyebrow::after { content: ''; position: absolute; left: 0; bottom: var(--s2); width: 2rem; height: 1px; background: currentColor; opacity: .6; }
+/* semi-transparent "feature archive" tab, bottom-right of the portrait */
+.c-feature__archive { position: absolute; right: 0; bottom: var(--s5); background: rgba(34,34,34,.66); color: #fff; padding: .55rem 1rem; font-size: .72rem; text-transform: uppercase; letter-spacing: .12em; font-weight: 700; text-decoration: none; z-index: 2; }
+.c-feature__archive:hover { background: rgba(34,34,34,.85); text-decoration: none; }
+/* ruled eyebrow (thin line above) for the featured story kicker */
+.yale-eyebrow--ruled { padding-top: var(--s4); border-top: 1px solid var(--gray-300, #bababa); display: inline-block; }
 
 /* ---------- Content spotlight (image-dominant + overlapping offset panel) ---------- */
 .c-spotlight { padding-block: var(--s8); }

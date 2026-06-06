@@ -1,0 +1,7 @@
+name: 'Meridian Feature'
+type: module
+description: 'A custom content entity (feature_banner) + inline card field type that renders the editorial "feature banner" homepage section — everything in code.'
+package: Custom
+core_version_requirement: ^10 || ^11
+dependencies:
+  - drupal:image

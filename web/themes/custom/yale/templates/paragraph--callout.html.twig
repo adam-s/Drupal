@@ -1,0 +1,24 @@
+{#
+/**
+ * Callout paragraph — renders the Yale-style CTA band from the paragraph's
+ * fields, themed by field_theme (blue | gold | plain). Demonstrates a Paragraph
+ * component rendered nested inside a Layout-Builder landing page.
+ */
+#}
+{% set theme = paragraph.field_theme.value|default('blue') %}
+<div class="yale-wrap">
+  <div class="yale-callout yale-callout--{{ theme }}">
+    {% if paragraph.field_eyebrow.value %}
+      <span class="yale-eyebrow">{{ paragraph.field_eyebrow.value }}</span>
+    {% endif %}
+    <h2>{{ paragraph.field_heading.value }}</h2>
+    {% if paragraph.field_text.value %}
+      <div class="yale-callout__text">{{ paragraph.field_text.0.value|raw }}</div>
+    {% endif %}
+    {% if paragraph.field_link.0.url %}
+      <a class="yale-btn yale-btn--solid" href="{{ paragraph.field_link.0.url.toString }}">
+        {{ paragraph.field_link.0.title|default('Learn more') }} ›
+      </a>
+    {% endif %}
+  </div>
+</div>

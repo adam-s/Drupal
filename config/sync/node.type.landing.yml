@@ -1,0 +1,11 @@
+uuid: e661a389-b077-4326-9c79-1b85e19d77d4
+langcode: en
+status: true
+dependencies: {  }
+name: 'Landing page'
+type: landing
+description: 'A composable landing page: arranged with Layout Builder, content built from Paragraph components.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

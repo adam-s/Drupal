@@ -1,0 +1,4 @@
+administer feature banners:
+  title: 'Administer feature banners'
+  description: 'Create, edit and delete feature banner sections.'
+  restrict access: true

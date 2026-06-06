@@ -1,0 +1,60 @@
+uuid: 69cd6732-1073-434d-af6d-e57b0102dea2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.callout.field_eyebrow
+    - field.field.paragraph.callout.field_heading
+    - field.field.paragraph.callout.field_link
+    - field.field.paragraph.callout.field_text
+    - field.field.paragraph.callout.field_theme
+    - paragraphs.paragraphs_type.callout
+  module:
+    - link
+    - text
+id: paragraph.callout.default
+targetEntityType: paragraph
+bundle: callout
+mode: default
+content:
+  field_eyebrow:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_heading:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_link:
+    type: link_default
+    weight: 3
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_text:
+    type: text_textarea
+    weight: 2
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_theme:
+    type: options_select
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

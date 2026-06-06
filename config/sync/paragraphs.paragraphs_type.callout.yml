@@ -1,0 +1,10 @@
+uuid: 6204993f-768d-4b02-a144-5958a18b0d64
+langcode: en
+status: true
+dependencies: {  }
+id: callout
+label: Callout
+icon_uuid: null
+icon_default: null
+description: 'A colored CTA band: eyebrow, heading, text and a button. Mirrors the Yale callout component contract.'
+behavior_plugins: {  }

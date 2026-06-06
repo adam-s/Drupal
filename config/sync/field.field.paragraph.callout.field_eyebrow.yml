@@ -1,0 +1,19 @@
+uuid: f80e2259-deba-4fe5-bdeb-cac84f76d365
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_eyebrow
+    - paragraphs.paragraphs_type.callout
+id: paragraph.callout.field_eyebrow
+field_name: field_eyebrow
+entity_type: paragraph
+bundle: callout
+label: Eyebrow
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

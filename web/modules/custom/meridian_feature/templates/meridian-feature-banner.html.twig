@@ -1,0 +1,44 @@
+{#
+/**
+ * Feature banner (entity) — renders the editorial homepage section:
+ * a featured story panel overlapping a portrait image (with two tabs), above a
+ * row of overlay cards (photo or solid-color, one per card.style). Reuses the
+ * .c-feature CSS. Variables: eyebrow, heading, summary, image, cta_*, tab_label,
+ * archive_*, cards[].
+ */
+#}
+<section class="c-feature">
+  <div class="c-feature__top yale-wrap">
+    <article class="c-feature__story">
+      {% if eyebrow %}<span class="yale-eyebrow yale-eyebrow--ruled">{{ eyebrow }}</span>{% endif %}
+      <h2 class="c-feature__title">
+        {% if cta_url %}<a href="{{ cta_url }}">{{ heading }}</a>{% else %}{{ heading }}{% endif %}
+      </h2>
+      {% if summary %}<p class="c-feature__summary">{{ summary }}</p>{% endif %}
+      {% if cta_url %}<a class="yale-btn yale-btn--ghost c-feature__cta" href="{{ cta_url }}">{{ cta_title|default('Learn more') }} ›</a>{% endif %}
+    </article>
+
+    {% if image %}
+      <div class="c-feature__media" style="background-image:url('{{ image }}')" role="img" aria-label="{{ heading }}"></div>
+    {% endif %}
+
+    {% if tab_label %}<span class="c-feature__tab">{{ tab_label }}</span>{% endif %}
+    {% if archive_label %}
+      <a class="c-feature__archive" href="{{ archive_url|default('#') }}">{{ archive_label }} ›</a>
+    {% endif %}
+  </div>
+
+  <div class="c-feature__cards yale-wrap">
+    {% for card in cards %}
+      <a class="c-feature__card{{ card.style == 'solid' ? ' c-feature__card--solid' : ' c-feature__card--photo' }}"
+         href="{{ card.url|default('#') }}"
+         {% if card.style != 'solid' and card.image %}style="background-image:url('{{ card.image }}')"{% endif %}>
+        <span class="c-feature__card-inner">
+          {% if card.eyebrow %}<span class="c-feature__card-eyebrow">{{ card.eyebrow }}</span>{% endif %}
+          <span class="c-feature__card-title">{{ card.heading }}</span>
+          {% if card.summary %}<span class="c-feature__card-summary">{{ card.summary }}</span>{% endif %}
+        </span>
+      </a>
+    {% endfor %}
+  </div>
+</section>

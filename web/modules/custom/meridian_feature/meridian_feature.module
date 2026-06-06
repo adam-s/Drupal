@@ -1,0 +1,29 @@
+<?php
+
+/**
+ * @file
+ * Meridian Feature — a code-defined content entity rendered as a homepage section.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function meridian_feature_theme($existing, $type, $theme, $path) {
+  return [
+    // Named to avoid colliding with meridian_patterns' 'feature_banner' hook.
+    'meridian_feature_banner' => [
+      'variables' => [
+        'eyebrow' => '',
+        'heading' => '',
+        'summary' => '',
+        'image' => NULL,
+        'cta_title' => '',
+        'cta_url' => '',
+        'tab_label' => '',
+        'archive_label' => '',
+        'archive_url' => '',
+        'cards' => [],
+      ],
+    ],
+  ];
+}

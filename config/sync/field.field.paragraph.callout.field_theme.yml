@@ -1,0 +1,21 @@
+uuid: e711cd99-90a6-457d-8552-1e29373f4ccf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_theme
+    - paragraphs.paragraphs_type.callout
+  module:
+    - options
+id: paragraph.callout.field_theme
+field_name: field_theme
+entity_type: paragraph
+bundle: callout
+label: 'Color theme'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string
